@@ -1,3 +1,8 @@
 title: "CQ备忘录"
 permalink: /:title/
+timezone: Asia/Shanghai
 theme: jekyll-theme-minimal
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
