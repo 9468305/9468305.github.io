@@ -1,7 +1,10 @@
+lang: "zh-CN"
 title: "CQ备忘录"
+description: "Blog posts, presentations, podcasts, and other things..."
 permalink: /:title/
 timezone: Asia/Shanghai
 theme: jekyll-theme-minimal
+logo: "/static/me.jpg"
 plugins:
   - jekyll-feed
   - jekyll-sitemap

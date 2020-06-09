@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+chenqi.app
+===============
 
-You can use the [editor on GitHub](https://github.com/9468305/9468305.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Blog posts, presentations, podcasts, and other things...
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+License
+=======
 
-### Markdown
+The content of the site (blog posts, presentation slides, etc.) are licensed as [Creative Commons CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The code powering the site is licensed as:
 
-```markdown
-Syntax highlighted code block
+    Copyright 2019 ChenQi
 
-# Header 1
-## Header 2
-### Header 3
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
 
-- Bulleted
-- List
+       http://www.apache.org/licenses/LICENSE-2.0
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/9468305/9468305.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
