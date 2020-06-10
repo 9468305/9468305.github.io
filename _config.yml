@@ -4,7 +4,7 @@ description: "Blog posts, presentations, podcasts, and other things..."
 permalink: /:title/
 timezone: Asia/Shanghai
 theme: jekyll-theme-minimal
-logo: "/static/me.jpg"
+logo: "/static/logo.jpg"
 plugins:
   - jekyll-feed
   - jekyll-sitemap
