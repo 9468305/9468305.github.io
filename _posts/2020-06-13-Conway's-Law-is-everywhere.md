@@ -11,9 +11,8 @@ tags:
 
 ### Answer
 
-**康威定律（Conway's Law）无处不在。**  
-https://zh.wikipedia.org/wiki/%E5%BA%B7%E5%A8%81%E5%AE%9A%E5%BE%8B  
-
+**[康威定律](https://zh.wikipedia.org/wiki/%E5%BA%B7%E5%A8%81%E5%AE%9A%E5%BE%8B)无处不在。**  
+维基百科：
 > 马尔文·康威 1967年 提出：  
 “设计系统的架构受制于产生这些设计的组织的沟通结构。”  
 即系统设计本质上反映了企业的组织机构。系统各个模块间的接口也反映了企业各个部门之间的信息流动和合作方式。  
@@ -37,4 +36,4 @@ https://zh.wikipedia.org/wiki/%E5%BA%B7%E5%A8%81%E5%AE%9A%E5%BE%8B
 + 大型团队组织架构梳理
 + 跨职能团队合作流程
 
-康威定律无处不在。
+Conway's Law is everywhere.
