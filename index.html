@@ -13,11 +13,13 @@ title: 首页
 </ul>
 <hr/>
 <ul>
-  <h2>分类</h2>
+  <h3>分类</h3>
   {% for cat in site.categories %}
     <li>
+      <a href="{{ cat | first}}">
       <span>{{ cat | first}}</span>
-      <span>{{ category | last | size }}</span>
+      <span>{{ cat | last | size }}</span>
+      </a>
     </li>
   {% endfor %}
 </ul>
