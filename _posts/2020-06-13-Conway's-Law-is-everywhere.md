@@ -2,7 +2,7 @@
 layout: post
 title: "TLDP 002：康威定律无处不在"
 author: ChenQi
-category: management
+category: Management
 ---
 ### Question
 

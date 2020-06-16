@@ -17,8 +17,8 @@ title: 首页
   {% for cat in site.categories %}
     <li>
       <a href="{{ cat | first}}">
-      <span>{{ cat | first}}</span>
-      <span>{{ cat | last | size }}</span>
+        <span>{{ cat | first}}</span>
+        <span>{{ cat | last | size }}</span>
       </a>
     </li>
   {% endfor %}

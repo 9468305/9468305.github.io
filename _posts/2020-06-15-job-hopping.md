@@ -2,8 +2,7 @@
 layout: post
 title: "TLDP 004：员工跳槽怎么办"
 author: ChenQi
-tags:
-- "管理"
+category: Management
 ---
 ### Question
 

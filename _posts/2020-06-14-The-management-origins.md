@@ -2,8 +2,7 @@
 layout: post
 title: "TLDP 003：管理问题溯源"
 author: ChenQi
-tags:
-- "管理"
+category: Management
 ---
 ### “管理”这件事所需解决的问题溯源
 
