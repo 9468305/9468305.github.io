@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "文字的载体"
+title: "生活：文字的载体"
 author: ChenQi
 category: Life
 ---
