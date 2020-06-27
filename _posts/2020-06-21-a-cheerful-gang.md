@@ -2,7 +2,7 @@
 layout: post
 title: "读书：阳光劫匪三部曲"
 author: ChenQi
-category: Life
+category: Reading
 ---
 
 ![阳光劫匪倒转地球](../static/acg1.png)
