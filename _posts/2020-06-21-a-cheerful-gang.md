@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "书评：阳光劫匪三部曲"
+title: "读书：阳光劫匪三部曲"
 author: ChenQi
 category: Life
 ---
