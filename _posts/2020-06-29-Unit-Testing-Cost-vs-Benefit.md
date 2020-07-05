@@ -2,7 +2,7 @@
 layout: post
 title: "技术：单元测试的成本和收益"
 author: ChenQi
-category: Tech
+category: Technology
 ---
 
 兄弟团队的问题：

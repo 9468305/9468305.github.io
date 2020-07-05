@@ -2,7 +2,7 @@
 layout: post
 title: "技术：Android OBB为什么不流行？"
 author: ChenQi
-category: Tech
+category: Technology
 ---
 
 之前在知乎上回答的问题，搬运至此。  

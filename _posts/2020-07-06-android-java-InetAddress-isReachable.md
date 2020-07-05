@@ -2,7 +2,7 @@
 layout: post
 title: "Android InetAddress.isReachable()"
 author: ChenQi
-category: Tech
+category: Technology
 ---
 
 JDK 1.5 起，提供了用于检测主机地址是否存在的API：  

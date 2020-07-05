@@ -2,10 +2,8 @@
 layout: post
 title: "Android系统为什么没有自带STL？"
 author: ChenQi
-category: Tech
+category: Technology
 ---
-
-> 今天偷懒，再搬运一个之前在知乎上的问题回答。
 
 ### 问题
 
