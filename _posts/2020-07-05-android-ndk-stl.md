@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Android系统为什么没有自带STL？"
+title: "Android为什么没有内置STL？"
 author: ChenQi
 category: Technology
 ---
