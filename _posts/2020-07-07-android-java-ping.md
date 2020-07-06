@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Android InetAddress.isReachable()"
+title: "考古：Android java ping"
 author: ChenQi
 category: Technology
 ---
