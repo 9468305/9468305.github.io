@@ -5,9 +5,12 @@ author: ChenQi
 category: Technology
 ---
 
+![ping](../static/ping.png)
 
+PING （Packet Internet Groper），用于测试目标主机是否可达及了解其有关状态。主要是向特定的目的主机发送 ICMP（Internet Control Message Protocol 因特网报文控制协议）Echo 请求报文。  
+常规使用如图，每秒发送一次请求。
 
-JDK 1.5 起，提供了用于检测主机地址是否存在的API：  
+JDK 1.5 起，提供了用于检测主机地址是否可达的API：  
 `java.net.InetAddress.isReachable()`
 
 入口：
@@ -60,7 +63,7 @@ public class InetAddress {
 方法内部逻辑基本一致，再调用 `JNI` 底层：  
 `private native boolean isReachable0()`  
 
-往下没深究，大概率是C语言实现调用各具体平台API。  
+`JNI` 内部没深究，大概率是C语言实现，调用各具体平台API。  
 运行时需要root权限。
 
 --------
