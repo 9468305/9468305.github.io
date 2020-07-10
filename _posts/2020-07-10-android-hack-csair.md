@@ -138,7 +138,7 @@ libweibosdkcore.so | 微博
 + dex2jar + jd-gui, jadx 各有千秋，混合搭配使用，字节码就能 99% 还原成可读性极佳的 Java 代码。
 + 网易云加密提供的"安卓右键工具"不错，右键下拉菜单集成 apktool, dex2jar, jd-gui。
 
-### 6 Java 代码分析启动流程
+### 6. Java 代码分析启动流程
 
 ```mermaid
 graph TB
@@ -305,7 +305,7 @@ public class MyBoardPassMemberOrNonOrderListActivity extends AppCompatActivity i
 }
 ```
 
-### 9 HttpQuery.java  
+### 9. HttpQuery.java  
 
 继续跳过。
 
@@ -520,6 +520,6 @@ Linux ELF 格式的 SO文件，有很多现成分析工具。过程省略。
 接下来就简单了，使用任意二进制编辑器，替换新密钥MD5值，跳过验证逻辑。  
 (南航犯了小错误，这里不该明文保存完整hardcode，至少混淆拆分隐藏一下吧。)  
 
-### End
+### 15. End
 
 虽然完整的加解密算法没有逆向出来，但是 HTTP 协议及其 NDK 加解密方法已经清晰，那么剩下的就是体力活了。
