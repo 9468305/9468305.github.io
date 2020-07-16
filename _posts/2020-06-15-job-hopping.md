@@ -4,6 +4,7 @@ title: "TLDP 004：员工跳槽怎么办"
 author: ChenQi
 category: Management
 ---
+
 ### Question
 
 > 每年三四月都是跳槽旺季，总有员工流失，外面offer给的很高。作为团队管理者，应该怎么挽留？

@@ -25,18 +25,14 @@ category: Technology
 
 网上水文太多（其实这篇也是），不过还是翻到几篇佳作，记录一下。
 
-《Unit Testing – Why not?》  
-By Kapil Viren Ahuja  
-https://scratchpad101.com/2014/08/13/unit-testing-why-not/
+[《Unit Testing – Why not?》](https://scratchpad101.com/2014/08/13/unit-testing-why-not/)  
+By Kapil Viren Ahuja
 
-《(Unit Testing) – Cost vs. Benefit》  
-By Kapil Viren Ahuja  
-https://scratchpad101.com/2014/08/14/unit-testing-cost-vs-benefit/  
+[《(Unit Testing) – Cost vs. Benefit》](https://scratchpad101.com/2014/08/14/unit-testing-cost-vs-benefit/)  
+By Kapil Viren Ahuja
 
-《Why Most Unit Testing is Waste》  
-By James O Coplien  
-https://rbcs-us.com/documents/Why-Most-Unit-Testing-is-Waste.pdf  
+[《Why Most Unit Testing is Waste》](https://rbcs-us.com/documents/Why-Most-Unit-Testing-is-Waste.pdf)  
+By James O Coplien
 
-《TDD is dead. Long live testing.》  
+[《TDD is dead. Long live testing.》](https://dhh.dk/2014/tdd-is-dead-long-live-testing.html)  
 By David Heinemeier Hansson  
-https://dhh.dk/2014/tdd-is-dead-long-live-testing.html

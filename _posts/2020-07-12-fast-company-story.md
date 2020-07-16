@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "快公司：从前有只不会讲故事的恐龙后来TA死了"
+title: "从前有只不会讲故事的恐龙后来TA死了"
 author: ChenQi
 category: Reading
 ---
