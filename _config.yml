@@ -3,7 +3,7 @@ title: "CQ备忘录"
 description: "Blog posts, presentations, podcasts, and other things..."
 permalink: /:title/
 timezone: Asia/Shanghai
-theme: jekyll-theme-minimal
+theme: jekyll-theme-hacker
 logo: "/static/logo.jpg"
 plugins:
   - jekyll-feed
