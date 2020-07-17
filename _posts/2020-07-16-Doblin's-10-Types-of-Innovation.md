@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "TLDP 016：Doblin's 10 Types of Innovation"
+image: "../static/ten-types.jpg"
 author: ChenQi
 category: Management
 ---

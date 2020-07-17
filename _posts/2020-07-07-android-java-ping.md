@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Android：Java Ping考古"
+image: "../static/ping.png"
 author: ChenQi
 category: Technology
 ---

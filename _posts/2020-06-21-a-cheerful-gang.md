@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "读书：阳光劫匪三部曲"
+image: "../static/acg1.png"
 author: ChenQi
 category: Reading
 ---
