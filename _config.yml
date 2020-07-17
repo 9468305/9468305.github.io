@@ -1,6 +1,8 @@
 lang: "zh-CN"
 title: "CQ备忘录"
-description: "Blog posts, presentations, podcasts, and other things..."
+description: "一间存放故事的仓库"
+logo: /static/chenqi.jpg
+author: ChenQi
 permalink: /:title/
 timezone: Asia/Shanghai
 theme: jekyll-theme-hacker
