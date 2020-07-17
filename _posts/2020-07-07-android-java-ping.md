@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "考古：Android java ping"
+title: "Android：Java Ping考古"
 author: ChenQi
 category: Technology
 ---

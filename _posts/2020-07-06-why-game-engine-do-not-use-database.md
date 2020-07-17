@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "游戏引擎为何不使用数据库来管理资源文件？"
+title: "技术：游戏引擎为何不用数据库？"
 author: ChenQi
 category: Technology
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "编辑手记|这本伊坂最阴郁的作品，可能显示了他的底色悲凉"
+title: "编辑手记：这本伊坂最阴郁的作品，可能显示了他的底色悲凉"
 author: ChenQi
 category: Reading
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "技术：Android OBB为什么不流行？"
+title: "Android：OBB为何不流行？"
 author: ChenQi
 category: Technology
 ---
