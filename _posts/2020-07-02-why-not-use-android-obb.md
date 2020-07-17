@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Android：OBB为何不流行？"
+description: "Android obb format"
 author: ChenQi
 category: Technology
 ---

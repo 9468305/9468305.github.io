@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "TLDP 006：一对一沟通"
+description: "Technology Leadership Development Program"
 author: ChenQi
 category: Management
 ---

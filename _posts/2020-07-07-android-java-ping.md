@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Android：Java Ping考古"
+description: "java.net.InetAddress.isReachable()"
 image: "../static/ping.png"
 author: ChenQi
 category: Technology

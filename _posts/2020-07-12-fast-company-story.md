@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "读书：从前有只不会讲故事的恐龙后来TA死了"
+description: ""
 image: "../static/fast-company-story.png"
 author: ChenQi
 category: Reading

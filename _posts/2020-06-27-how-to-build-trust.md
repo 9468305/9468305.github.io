@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "TLDP 010：建立信任感"
+description: "Technology Leadership Development Program"
 author: ChenQi
 category: Management
 ---

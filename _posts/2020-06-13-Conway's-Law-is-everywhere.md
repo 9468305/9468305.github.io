@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "TLDP 002：康威定律无处不在"
+description: "Technology Leadership Development Program"
 author: ChenQi
 category: Management
 ---

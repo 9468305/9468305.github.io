@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "TLDP 003：管理问题溯源"
+description: "Technology Leadership Development Program"
 author: ChenQi
 category: Management
 ---

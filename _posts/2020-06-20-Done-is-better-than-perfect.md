@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "TLDP 008：完成比完美更好"
+description: "Technology Leadership Development Program"
 author: ChenQi
 category: Management
 ---

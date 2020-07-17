@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "TLDP 014：人才梯队构建"
+description: "Technology Leadership Development Program"
 image: "../static/talent-kanban.png"
 author: ChenQi
 category: Management

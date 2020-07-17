@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "TLDP 015：系统与零件"
+description: "Technology Leadership Development Program"
 author: ChenQi
 category: Management
 ---

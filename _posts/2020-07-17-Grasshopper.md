@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "编辑手记：这本伊坂最阴郁的作品，可能显示了他的底色悲凉"
+description: "伊坂幸太郎 温情背后的底色悲凉"
 image: "../static/Grasshopper6.jpg"
 author: ChenQi
 category: Reading
