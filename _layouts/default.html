@@ -45,6 +45,7 @@
         }
       };
       mermaid.initialize(config);
+      window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
     </script>
 
     {% if site.google_analytics %}
