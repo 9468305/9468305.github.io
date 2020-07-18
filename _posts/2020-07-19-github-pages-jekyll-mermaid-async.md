@@ -146,7 +146,7 @@ mermaid: true
 然后修改样式模版，异步加载渲染。
 
 ```javascript
-{% if page.mermaid %}
+{ % if page.mermaid % }
 
 <script>
 function initMermaid() {
@@ -161,7 +161,7 @@ function initMermaid() {
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/mermaid/8.6.0/mermaid.min.js" async onload="initMermaid()"></script>
 
-{% endif %}
+{ % endif % }
 ```
 
 再次分别使用电脑和手机浏览器打开网站，页面加载明显顺畅了，继续测试性能评分。
