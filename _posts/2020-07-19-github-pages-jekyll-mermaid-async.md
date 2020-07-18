@@ -167,9 +167,9 @@ function initMermaid() {
 再次分别使用电脑和手机浏览器打开网站，页面加载明显顺畅了，继续测试性能评分。
 
 没有使用 `Mermaid` 的网页恢复到100分。  
-[《 Android：csair 逆向工程》](../android-hack-csair/) 这个网页含有一个 `Mermaid` 流程图和大量代码块，所以维持在80-90分已经非常理想。移动设备浏览器阻塞耗时仍有少量无法避免，桌面设备浏览器体验几近完美。
+[《 Android：csair 逆向工程》](../android-hack-csair/) 这个网页含有一个 `Mermaid` 流程图和大量代码块，所以维持在80-90分已经非常理想。桌面设备浏览器体验几近完美，移动设备浏览器阻塞耗时仍有少量无法避免。
 
-微信公众号和其他未支持 `Mermaid` 的平台，可以使用 [Mermaid Live Editor](https://mermaid-js.github.io/mermaid-live-editor/) 这个在线实时编辑器，复制粘贴 Code，获得 SVG，PNG，等格式文件或链接。
+微信公众号和其他未支持 `Mermaid` 的平台，可以使用 [Mermaid Live Editor](https://mermaid-js.github.io/mermaid-live-editor/) 在线实时编辑器，复制粘贴即可获得 SVG，PNG，等格式文件或链接。
 
 BTW：  
 重温互联网前端技术二十年悲惨历史之沧海一粟  
@@ -180,10 +180,10 @@ BTW：
 
 ![psi chenqi.app mobile detail](../static/psi-cqa-m-d.png)
 
-![psi chenqi.app csair mobile](../static/psi-cqa-csair-m.png)
-
-![psi chenqi.app csair mobile detail](../static/psi-cqa-csair-m-d.png)
-
 ![psi chenqi.app csair desktop](../static/psi-cqa-csair-d.png)
 
 ![psi chenqi.app csair desktop detail](../static/psi-cqa-csair-d-d.png)
+
+![psi chenqi.app csair mobile](../static/psi-cqa-csair-m.png)
+
+![psi chenqi.app csair mobile detail](../static/psi-cqa-csair-m-d.png)
