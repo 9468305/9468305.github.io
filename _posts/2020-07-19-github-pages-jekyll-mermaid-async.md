@@ -30,7 +30,7 @@ graph TB
     vsc -->|增强插件|md
     md -->|增强插件|mm
     mm -->|存储上传|git
-    git -->v{Visibility}
+    git -->|git push|v{Visibility}
     v -->|公开|gh
     v -->|保密|wp{工作or私人}
 
@@ -63,7 +63,7 @@ graph TB
     vsc -->|增强插件|md
     md -->|增强插件|mm
     mm -->|存储上传|git
-    git -->v{Visibility}
+    git -->|git push|v{Visibility}
     v -->|公开|gh
     v -->|保密|wp{工作or私人}
 
