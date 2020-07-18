@@ -111,8 +111,12 @@ graph TB
 
 <script>
 var config = {
-startOnLoad: true,
-theme: "forest",
+  startOnLoad: true,
+  theme: "forest",
+  flowchart:{
+    useMaxWidth: true,
+    htmlLabels: true
+  }
 };
 mermaid.initialize(config);
 window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
@@ -150,12 +154,16 @@ mermaid: true
 
 <script>
 function initMermaid() {
-    var config = {
-    startOnLoad: true,
-    theme: "forest",
-    };
-    mermaid.initialize(config);
-    window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+  var config = {
+  startOnLoad: true,
+  theme: "forest",
+  flowchart:{
+    useMaxWidth: true,
+    htmlLabels: true
+  }
+  };
+  mermaid.initialize(config);
+  window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
 }
 </script>
 
