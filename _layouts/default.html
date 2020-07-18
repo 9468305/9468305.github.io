@@ -6,19 +6,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-  {% if page.mermaid %}
-  <script>
-    [
-      'https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.6.0/mermaid.min.js',
-      '/assets/js/mermaid.init.js'
-    ].forEach(function (src) {
-      var script = document.createElement('script');
-      script.src = src;
-      script.async = false;
-      document.head.appendChild(script);
-    });
-  </script>
-  {% endif %}
   {% seo %}
 </head>
 
@@ -50,6 +37,22 @@
   </div>
 
   {% if page.mermaid %}
+  <script>
+    function initMermaid() {
+      var config = {
+        startOnLoad: true,
+        theme: "forest",
+        flowchart: {
+          useMaxWidth: false,
+          htmlLabels: true
+        }
+      };
+      mermaid.initialize(config);
+      window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+    }
+  </script>
+  <script scr="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.6.0/mermaid.min.js" async defer
+    onload="initMermaid()"></script>
   {% endif %}
 
   {% if site.google_analytics %}
