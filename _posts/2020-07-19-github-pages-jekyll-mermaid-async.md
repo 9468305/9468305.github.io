@@ -169,6 +169,8 @@ function initMermaid() {
 没有使用 `Mermaid` 的网页恢复到100分。  
 [《 Android：csair 逆向工程》](../android-hack-csair/) 这个网页含有一个 `Mermaid` 流程图和大量代码块，所以维持在80-90分已经非常理想。移动设备浏览器阻塞耗时仍有少量无法避免，桌面设备浏览器体验几近完美。
 
+微信公众号和其他未支持 `Mermaid` 的平台，可以使用 [Mermaid Live Editor](https://mermaid-js.github.io/mermaid-live-editor/) 这个在线实时编辑器，复制粘贴 Code，获得 SVG，PNG，等格式文件或链接。
+
 BTW：  
 重温互联网前端技术二十年悲惨历史之沧海一粟  
 《Deep dive into the murky waters of script loading》  
