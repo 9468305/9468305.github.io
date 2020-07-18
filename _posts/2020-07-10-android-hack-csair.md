@@ -4,6 +4,7 @@ title: "Android：csair逆向工程"
 description: ""
 author: ChenQi
 category: Technology
+mermaid: true
 ---
 
 > 今天没写新东西，继续搬运。知乎上面没有存货了，剩下的都是很简短或者过时的内容。翻出三年前的这篇技术文档和代码，发现还能用，勉强充数吧。
