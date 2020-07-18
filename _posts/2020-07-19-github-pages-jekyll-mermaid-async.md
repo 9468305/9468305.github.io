@@ -2,7 +2,8 @@
 layout: post
 title: "Tech：GitHub Pages Jekyll Mermaid"
 description: "GitHub Pages Jekyll Mermaid Asynchronous PageSpeedInsights LightHouse"
-image: ""
+mermaid: true
+image: "../static/psi-cqa-m.png"
 author: ChenQi
 category: Technology
 ---
@@ -105,15 +106,17 @@ graph TB
 
 添加代码：
 
-```javascript
+```html
 <script src="//cdnjs.cloudflare.com/ajax/libs/mermaid/8.6.0/mermaid.min.js"></script>
 
+<script>
 var config = {
 startOnLoad: true,
 theme: "forest",
 };
 mermaid.initialize(config);
 window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+</script>
 ```
 
 完成！
@@ -142,7 +145,7 @@ mermaid: true
 
 然后修改样式模版，异步加载渲染。
 
-```html
+```javascript
 {% if page.mermaid %}
 
 <script>
@@ -161,7 +164,15 @@ function initMermaid() {
 {% endif %}
 ```
 
-再次分别使用电脑和手机浏览器打开网站，页面加载明显顺畅了，再次测试性能评分。
+再次分别使用电脑和手机浏览器打开网站，页面加载明显顺畅了，继续测试性能评分。
+
+没有使用 `Mermaid` 的网页恢复到100分。  
+[《 Android：csair 逆向工程》](../android-hack-csair/) 这个网页含有一个 `Mermaid` 流程图和大量代码块，所以维持在80-90分已经非常理想。移动设备浏览器阻塞耗时仍有少量无法避免，桌面设备浏览器体验几近完美。
+
+BTW：  
+重温互联网前端技术二十年悲惨历史之沧海一粟  
+《Deep dive into the murky waters of script loading》  
+[https://www.html5rocks.com/zh/tutorials/speed/script-loading/](https://www.html5rocks.com/zh/tutorials/speed/script-loading/)
 
 ![psi chenqi.app mobile](../static/psi-cqa-m.png)
 
@@ -174,11 +185,3 @@ function initMermaid() {
 ![psi chenqi.app csair desktop](../static/psi-cqa-csair-d.png)
 
 ![psi chenqi.app csair desktop detail](../static/psi-cqa-csair-d-d.png)
-
-没有使用 `Mermaid` 的网页恢复到100分。  
-[《 Android：csair 逆向工程》](../android-hack-csair/) 这个网页含有一个 `Mermaid` 流程图和大量代码块，所以维持在80-90分已经非常理想。移动设备浏览器阻塞耗时仍有少量无法避免，桌面设备浏览器体验几近完美。
-
-BTW：  
-重温互联网前端技术二十年悲惨历史之沧海一粟  
-《Deep dive into the murky waters of script loading》  
-[https://www.html5rocks.com/zh/tutorials/speed/script-loading/](https://www.html5rocks.com/zh/tutorials/speed/script-loading/)
