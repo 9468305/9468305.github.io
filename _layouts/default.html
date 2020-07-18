@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-
-{% seo %}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.6.0/mermaid.min.js"></script>
+    {% seo %}
   </head>
 
   <body>
@@ -34,6 +34,18 @@
         {{ content }}
       </section>
     </div>
+
+    <script>
+      var config = {
+        startOnLoad:true,
+        theme: "forest",
+        flowchart:{
+          useMaxWidth:false,
+          htmlLabels:true
+        }
+      };
+      mermaid.initialize(config);
+    </script>
 
     {% if site.google_analytics %}
       <script>
