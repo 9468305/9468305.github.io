@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tech：GitHub Pages Jekyll Mermaid"
+title: "Tech：GitHub Pages + Jekyll + Mermaid"
 description: "GitHub Pages Jekyll Mermaid Asynchronous PageSpeedInsights LightHouse"
 mermaid: true
 image: "../static/psi-cqa-m.png"
