@@ -121,7 +121,7 @@ libBaiduMapSDK_radar_v4_1_1.so | 百度地图
 libBaiduMapSDK_search_v4_1_1.so | 百度地图
 libBaiduMapSDK_util_v4_1_1.so | 百度地图
 liblocSDK7.so | 百度地图
-libbsdiff.so | bsdiff增量更新
+libbsdiff.so | 增量更新
 libDexHelper-x86.so | 梆梆加固
 libDexHelper.so | 梆梆加固
 libentryexpro.so | 银联支付
