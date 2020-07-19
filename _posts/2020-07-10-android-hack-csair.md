@@ -275,7 +275,7 @@ public class CheckinNewLoginActivity extends AppCompatActivity implements TextWa
 
 ### 8
 
-MyBoardPassMemberOrNonOrderListActivity.java  
+MyBoardPassMember...Activity.java  
 继续跳过。
 
 ```java

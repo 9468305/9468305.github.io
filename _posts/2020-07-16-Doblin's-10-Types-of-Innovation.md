@@ -45,9 +45,13 @@ How you foster compelling interactions
 
 [Doblin's 10 Types of Innovation](https://www.youtube.com/watch?v=Q3sfmDkrAI0)
 
-[10 Types of Innovation | Larry Keeley | SingularityU South Africa Summit](https://www.youtube.com/watch?v=GvROlNjLbrA)
+[10 Types of Innovation](https://www.youtube.com/watch?v=GvROlNjLbrA)  
+Larry Keeley  
+SingularityU South Africa Summit
 
-[Corporate Innovation | Larry Keeley | SingularityU Australia Summit 2018 | Singularity University](https://www.youtube.com/watch?v=JD1ofouDGGE)
+[Corporate Innovation](https://www.youtube.com/watch?v=JD1ofouDGGE)  
+Larry Keeley  
+SingularityU Australia Summit 2018
 
 ### Book
 
