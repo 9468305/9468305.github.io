@@ -155,19 +155,22 @@ mermaid: true
 <script>
 function initMermaid() {
   var config = {
-  startOnLoad: true,
-  theme: "forest",
-  flowchart:{
-    useMaxWidth: true,
-    htmlLabels: true
-  }
+    startOnLoad: true,
+    theme: "forest",
+    flowchart:{
+      useMaxWidth: true,
+      htmlLabels: true
+    }
   };
   mermaid.initialize(config);
   window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
 }
 </script>
 
-<script src="//cdnjs.cloudflare.com/ajax/libs/mermaid/8.6.0/mermaid.min.js" async onload="initMermaid()"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/mermaid/8.6.0/mermaid.min.js"
+  async
+  onload="initMermaid()">
+</script>
 
 { % endif % }
 ```
@@ -181,8 +184,7 @@ function initMermaid() {
 
 BTW：  
 重温互联网前端技术二十年悲惨历史之沧海一粟  
-《Deep dive into the murky waters of script loading》  
-[https://www.html5rocks.com/zh/tutorials/speed/script-loading/](https://www.html5rocks.com/zh/tutorials/speed/script-loading/)
+[《Deep dive into the murky waters of script loading》](https://www.html5rocks.com/zh/tutorials/speed/script-loading/)
 
 ![psi chenqi.app mobile](../static/psi-cqa-m.png)
 

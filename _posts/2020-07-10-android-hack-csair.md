@@ -162,9 +162,10 @@ D-->E
   end
 ```
 
-### 7. CheckinNewLoginActivity.java
+### 7
 
-枯燥的部分，跳过跳过。
+CheckinNewLoginActivity.java  
+枯燥的部分，跳过。
 
 ```java
 package com.csair.mpb.checkin.input.activity;
@@ -272,8 +273,9 @@ public class CheckinNewLoginActivity extends AppCompatActivity implements TextWa
 }
 ```
 
-### 8. MyBoardPassMemberOrNonOrderListActivity.java
+### 8
 
+MyBoardPassMemberOrNonOrderListActivity.java  
 继续跳过。
 
 ```java
@@ -306,8 +308,9 @@ public class MyBoardPassMemberOrNonOrderListActivity extends AppCompatActivity i
 }
 ```
 
-### 9. HttpQuery.java  
+### 9
 
+HttpQuery.java  
 继续跳过。
 
 ```java
@@ -349,8 +352,9 @@ public abstract class e extends AsyncTask<String, Integer, Object> implements Tr
 }
 ```
 
-### 10. NetworkUtils.java
+### 10
 
+NetworkUtils.java  
 继续跳过。
 
 ```java
@@ -408,8 +412,9 @@ public final class i {
     }
 ```
 
-### 11. CheckCodeUtil.java
+### 11
 
+CheckCodeUtil.java  
 继续跳过。
 
 ```java
@@ -462,8 +467,9 @@ public class CheckCodeUtil {
 值机查询
 
 **request:**
+
 ```
-0000   1f 8b 08 00 00 00 00 00 00 00 05 c1 4b 12 82 20  ............K.. 
+0000   1f 8b 08 00 00 00 00 00 00 00 05 c1 4b 12 82 20  ............K..
 0010   00 00 d0 03 b9 10 2a 19 5d b8 c8 cc 10 bf 24 a6  ......*.].....$.
 0020   b6 63 06 c9 a6 6c d4 d0 c4 d3 f7 5e b0 be ed a9  .c...l.....^....
 0030   3f b7 0a 68 39 69 1e e5 41 b7 eb bf fb 4f 0b 9d  ?..h9i..A....O..
@@ -492,14 +498,11 @@ Fxl8rmEet0yfryaKPFh2ms3ne19Sh+B0JQ5+6/dL1AdTKpHvSLQXC1Jre9qVd5OfvyJtNJTPQtidHXTd
 标准Base64格式：  
 > Base64编码由大写字母，小写字母，数字，'+'，'/'组成，尾部通常有1,2个'='。  
 
-配合Java代码逻辑解读，这里使用AES加解密。  
-解密后数据：
+配合Java代码逻辑解读，这里使用AES加解密，解密后数据如下，仍然是二进制密文，思路卡壳，不过已知与 libencrypt_release.so 有关。
 
 ```
 536BC2820A4F1D78063CC3A748C29DC28C6CC2AA74C289C2B77214062A4BC28B72C38C4D145BC2AEC3B2C2B2C3984D25C3BF58C39AC398C292C392C3A54011C3A0C293C3A8C28BC38238C3A0C392C2B0C385C2BC0DC2BB00C2B9C38535C3A44019C285C3842DC28B4DC3BE1EC3A7C28D4CC29F6CC3B913C3A5C2B2C3B664C28C14C38CC3A6C3AB242AC3903A4AC3880A79C386153DC3ADC39A6E3759C3B3C2A32913C381C29C4E6CC2A25AC389594705C283C2A15D00C3925E0F60C297C283
 ```
-
-仍然是二进制密文，思路卡壳，不过已知与 libencrypt_release.so 有关。
 
 ### 13. NDK SO 文件反汇编分析
 

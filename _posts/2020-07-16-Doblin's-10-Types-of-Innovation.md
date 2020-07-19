@@ -14,7 +14,7 @@ category: Management
 
 ### Doblin
 
-https://doblin.com/ten-types  
+[https://doblin.com/ten-types](https://doblin.com/ten-types)  
 Doblin 是一家创新咨询公司，他们提出了一种创新框架“创新十型”。  
 官网有非常详细介绍。  
 
@@ -43,14 +43,11 @@ How you foster compelling interactions
 
 ### YouTube
 
-Doblin's 10 Types of Innovation  
-https://www.youtube.com/watch?v=Q3sfmDkrAI0
+[Doblin's 10 Types of Innovation](https://www.youtube.com/watch?v=Q3sfmDkrAI0)
 
-10 Types of Innovation | Larry Keeley | SingularityU South Africa Summit  
-https://www.youtube.com/watch?v=GvROlNjLbrA
+[10 Types of Innovation | Larry Keeley | SingularityU South Africa Summit](https://www.youtube.com/watch?v=GvROlNjLbrA)
 
-Corporate Innovation | Larry Keeley | SingularityU Australia Summit 2018 | Singularity University  
-https://www.youtube.com/watch?v=JD1ofouDGGE
+[Corporate Innovation | Larry Keeley | SingularityU Australia Summit 2018 | Singularity University](https://www.youtube.com/watch?v=JD1ofouDGGE)
 
 ### Book
 

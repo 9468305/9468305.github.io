@@ -11,10 +11,7 @@ category: Management
 每年7月和12月年底，都是团队管理行政类事务高峰期。之前的两篇半年投资复盘，也能看出这2个时间点都没有任何操作记录。  
 除了事情多，更重要的是，事关团队全员的职业发展和薪酬福利，总是要慎重再慎重。  
 其中一项工作就是盘点团队人才梯队现状，规划未来方向，制订路线图。  
-ThoughtWorks洞见系列的这篇文章很好，其中提供了几个用于人才梯队盘点的工具系统，摘录如下。
-
-> 《团队在高速扩张中的能力构建与质量保证》  
-https://insights.thoughtworks.cn/capacity-building-and-quality-assurance/
+[《团队在高速扩张中的能力构建与质量保证》](https://insights.thoughtworks.cn/capacity-building-and-quality-assurance/)，ThoughtWorks 洞见系列的这篇文章很好，其中提供了几个用于人才梯队盘点的工具系统，摘录如下。
 
 ### 人才梯队构建
 

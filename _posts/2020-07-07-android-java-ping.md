@@ -195,8 +195,7 @@ private native boolean isReachable0(...) throws IOException;
 ```
 
 得益于 `AndroidXRef` 网站的便利，`JNI` 部分也非常容易找到，参考：  
-> http://androidxref.com/7.0.0_r1/xref/libcore/ojluni/src/main/native/Inet6AddressImpl.c
-
+[Inet6AddressImpl.c](http://androidxref.com/7.0.0_r1/xref/libcore/ojluni/src/main/native/Inet6AddressImpl.c)  
 这部分代码注释可读性非常好，不再赘述。
 
 ```c
