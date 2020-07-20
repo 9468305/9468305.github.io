@@ -2,6 +2,7 @@
 layout: post
 title: "Android：STL为何无内置？"
 description: "Android STL gnustl stlport GCC Clang LLVM"
+image: ../static/chenqi.jpg
 author: ChenQi
 category: Technology
 ---

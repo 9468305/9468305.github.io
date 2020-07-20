@@ -2,6 +2,7 @@
 layout: post
 title: "Tech：游戏引擎为何不用数据库？"
 description: "Game Engine Database"
+image: ../static/chenqi.jpg
 author: ChenQi
 category: Technology
 ---

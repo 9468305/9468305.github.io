@@ -2,6 +2,7 @@
 layout: post
 title: "TLDP 013：转岗不成怎么办"
 description: "Technology Leadership Development Program"
+image: ../static/chenqi.jpg
 author: ChenQi
 category: Management
 ---

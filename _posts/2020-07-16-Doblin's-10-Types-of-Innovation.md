@@ -2,7 +2,7 @@
 layout: post
 title: "TLDP 016：Doblin's 10 Types of Innovation"
 description: "Technology Leadership Development Program"
-image: "../static/ten-types.jpg"
+image: ../static/ten-types.jpg
 author: ChenQi
 category: Management
 ---

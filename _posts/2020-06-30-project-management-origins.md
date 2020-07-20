@@ -2,6 +2,7 @@
 layout: post
 title: "TLDP 011：项目管理的三分之二法则"
 description: "Technology Leadership Development Program"
+image: ../static/chenqi.jpg
 author: ChenQi
 category: Management
 ---

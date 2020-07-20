@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "读书：阳光劫匪三部曲"
-image: "../static/acg1.png"
+image: ../static/acg1.png
 description: "阳光劫匪倒转地球 阳光劫匪日常与袭击 阳光劫匪友情测试 伊坂幸太郎 VS 东野圭吾"
 author: ChenQi
 category: Reading

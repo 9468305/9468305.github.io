@@ -2,6 +2,7 @@
 layout: post
 title: "生活：文字的载体"
 description: "GoDaddy GitHub Pages Blog"
+image: ../static/chenqi.jpg
 author: ChenQi
 category: Life
 ---
