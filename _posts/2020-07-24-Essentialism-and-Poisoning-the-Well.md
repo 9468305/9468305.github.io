@@ -2,7 +2,7 @@
 layout: post
 title: "TLDP 017：本质主义与贴标签"
 description: "Technology Leadership Development Program Essentialism and Poisoning the Well"
-image: ../static/
+image: ../static/chenqi.jpg
 author: ChenQi
 category: Management
 ---
