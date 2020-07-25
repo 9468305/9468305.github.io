@@ -10,3 +10,44 @@
 header h1 {
   margin: 0 0 0 0;
 } 
+
+// Tables https://github.com/weibeld/weibeld-notes/blob/master/_sass/_layout.scss
+
+// Table with alternating row colours, and no scrolling support. If wider than
+// the content, the table takes 100% width, and the content inside <td> wraps.
+.table-normal {
+  margin: 0 auto;
+  border-collapse: collapse;
+  box-shadow: $shadow-large;
+  td, th {
+    padding: 0.2rem 0.75rem;
+    &:first-child { padding-left: 0.5rem; }
+    &:last-child { padding-right: 0.5rem; }
+  }
+  th {
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+  }
+}
+
+.table-telegram-cli {
+  table-layout: fixed;
+  td:nth-child(1) {
+    width: 50%;
+  }
+  td:nth-child(2) {
+    width: 50%;
+  }
+}
+
+// Table with horizontal scrolling support. Table is horizontally centered if
+// less wide than content, and taked 100% width and has scrollbars otherwise.
+// Caveats: no shadow can be applied, no line will break inside a <td>
+.scrollable-table-wrapper {
+  overflow-x: auto;
+}
+.table-scrollable {
+  @extend .table-normal;
+  white-space: nowrap;
+  box-shadow: none;
+}
