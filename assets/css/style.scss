@@ -3,6 +3,10 @@
 
 @import "{{ site.theme }}";
 .btn-linkedin .icon {
-    opacity: 0.6;
-    background: url("../images/linkedin.png") 0 0 no-repeat;
-  }
+  opacity: 0.6;
+  background: url("../images/linkedin.png") 0 0 no-repeat;
+}
+
+header h1 {
+  margin: 0 0 0 0;
+} 
