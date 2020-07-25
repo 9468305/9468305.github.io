@@ -101,7 +101,7 @@ $shadow-small: 2px 2px 2px rgba(0, 0, 0, 0.2);
 
 ### Example
 
-修复[《投资：2020H1 OTA 大盘回顾》](../ota-stack-2020-h1/)中的表格布局。
+2020.06.23 [《投资：2020H1 OTA 大盘回顾》](../ota-stack-2020-h1/)，其中的表格布局优化。
 
 <div class="scrollable-table-wrapper" markdown="block">
 
