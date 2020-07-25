@@ -13,6 +13,10 @@ header h1 {
 
 // Tables https://github.com/weibeld/weibeld-notes/blob/master/_sass/_layout.scss
 
+/* Shadows */
+$shadow-large: 3px 3px 3px rgba(0, 0, 0, 0.2);
+$shadow-small: 2px 2px 2px rgba(0, 0, 0, 0.2);
+
 // Table with alternating row colours, and no scrolling support. If wider than
 // the content, the table takes 100% width, and the content inside <td> wraps.
 .table-normal {
