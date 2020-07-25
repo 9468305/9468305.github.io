@@ -30,28 +30,43 @@ mermaid: true
 
 APK 解压后的 DEX 文件：
 
+<div class="scrollable-table-wrapper" markdown="block">
+
 DEX | SIZE
 ---|---
 classes.dex | 14 KB
 classes2.dex | 6340 KB
 classes3.dex | 4021 KB
 
+{:.table-scrollable}
+</div>
+
 assets 目录结构：
+
+<div class="scrollable-table-wrapper" markdown="block">
 
 FILE | SIZE
 ---|---
 classes.dgc | 1358 KB
 classes0.jar | 6182 KB
 
+{:.table-scrollable}
+</div>
+
 标准的梆梆加固技术方案，用的还是付费企业版。
 
 脱壳后：
+
+<div class="scrollable-table-wrapper" markdown="block">
 
 DEX | SIZE | 用途
 ---|--- |---
 classes.dex | 6517 KB | 主要业务逻辑和UI
 classes2.dex | 6342 KB | 其他业务逻辑和UI
 classes3.dex | 4017 KB | 第三方SDK和开源库
+
+{:.table-scrollable}
+</div>
 
 ### 2. 脱壳
 
@@ -109,6 +124,8 @@ Activity UI 入口必须有明文静态声明的，躲不了。摘录一段值�
 
 解压缩 /lib/armeabi/*.so
 
+<div class="scrollable-table-wrapper" markdown="block">
+
 SO文件 | 望文生义猜测用途
 ---|---
 libAndroidBankCard.so | 南航银行卡逻辑
@@ -122,7 +139,7 @@ libBaiduMapSDK_radar_v4_1_1.so | 百度地图
 libBaiduMapSDK_search_v4_1_1.so | 百度地图
 libBaiduMapSDK_util_v4_1_1.so | 百度地图
 liblocSDK7.so | 百度地图
-libbsdiff.so | 增量更新
+libbsdiff.so | bsdiff增量更新
 libDexHelper-x86.so | 梆梆加固
 libDexHelper.so | 梆梆加固
 libentryexpro.so | 银联支付
@@ -133,6 +150,9 @@ libnbsdc2.1.0.so | 听云应用性能监控
 libtencentloc.so | 腾讯地图
 libuptsmaddon.so | 银联支付
 libweibosdkcore.so | 微博
+
+{:.table-scrollable}
+</div>
 
 ### 5. Java 字节码反编译
 
