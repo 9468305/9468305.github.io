@@ -7,7 +7,8 @@ author: ChenQi
 category: Technology
 ---
 
-周末在家继续修复个人博客网站的小问题。  
+周末在家继续修复个人博客网站的小问题。
+
 Markdown 表格语法的最终转译产物是 HTML `<table>` 标签。当内容元素众多时，表格宽高随之变化，为了避免破坏页面整体的美观，需要使用水平或垂直滚动布局。
 
 ### Table
@@ -50,7 +51,7 @@ Jekyll Markdown 解释器：
 ### SCSS
 
 实现相关 `CSS` 定义。  
-感谢 Daniel Weibel 和他的 weibeld.net 个人网站。
+感谢 `Daniel Weibel` 和他的 `weibeld.net` 个人网站。
 
 ```scss
 // https://github.com/weibeld/weibeld-notes/blob/master/_sass/_layout.scss
