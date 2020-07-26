@@ -50,6 +50,6 @@ category: Technology
 
 ### Bad Case
 
-典型案例数不胜数，随便选一封，手机端截图压缩模糊化脱敏处理。
+典型案例数不胜数，随便选一封，iPhone 手机系统邮箱，原始截图，缩放比例40%，自带模糊脱敏效果。
 
 ![mail](../static/mail.jpg)
