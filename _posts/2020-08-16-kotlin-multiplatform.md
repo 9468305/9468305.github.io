@@ -639,7 +639,7 @@ fun readLine(): String?
 `Package kotlinx.io` 基于 `NIO` 方案实现，目前仍处于实验阶段，官方建议配合 `kotlinx.coroutines, kotlinx.atomicfu` 一起使用，尚未支持 Native 平台。  
 所以目前我们只能自己实现双平台的统一封装。这部分实现并不难，可参考  `OpenJDK` 和 `AOSP` 源码。 `Java File` 底层实现原理也是通过 `JNI` 调用 `C POSIX`。`Android` 源码部分改写了 `OpenJDK` 的实现。具体细节详见 `Android SDK FileInputStream/FileOutputSteam` 源码。  
 另外 `Okio 2` 正在进行迁移至 `Kotlin` 和支持多平台，`square` 团队的最终目标是将 `Retrofit, OkHttp` 运行在多平台。详见：  
-[https://github.com/square/okio/issues/370](https://github.com/square/okio/issues/370)
+[okio/issues/370](https://github.com/square/okio/issues/370)
 
 --------
 
