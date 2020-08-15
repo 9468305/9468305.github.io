@@ -9,7 +9,7 @@ category: [Technology, Kotlin]
 ---
 
 > 断更两周，最近正在写几个 `Kotlin` 跨平台项目，应该会输 (wa) 出 (keng) 一个系列，所以先归档一篇旧文水货，算是楔子。  
-原载于《携程技术》公众号，2019-06-12，《携程机票 App Kotlin Multiplatform 初探》。
+原载于《携程技术》公众号，2019-06-12，[《携程机票 App Kotlin Multiplatform 初探》](https://mp.weixin.qq.com/s/hFoCEmhKAyeuckQJBhPcGA)。
 
 ### Kotlin Multiplatform for Mobile
 
@@ -90,17 +90,16 @@ graph TB
 + Linux (x86_64, arm32, MIPS, MIPS little endian, Raspberry Pi)
 + WebAssembly (wasm32)
 
-### `Kotlin Native vs C` 双向互操作
+### Kotlin Native vs C 双向互操作
 
-#### `cinterop`
+#### cinterop
 
 `Kotlin Native` 官方附带工具，用于快速生成 `Kotlin` 与平台 C 库互相调用操作所需的内容。  
 首先创建一个`.def`文件，描述需要包含在语言绑定的内容。  
 然后使用 `cinterop` 分析 C 头文件，映射生成 `Kotlin` 语言的类型，函数和常量，完成绑定。  
 最后通过 `LLVM` 编译器链接生成最终的可执行文件 `*.kexe` 或库文件 `*.klib`。  
 `kexe` 是平台相关的可执行程序文件格式。  
-`klib` 是平台相关的库文件格式，类似 `JAR ZIP` 格式，细节详见官网文档：  
-[https://kotlinlang.org/docs/reference/native/libraries.html#the-library-format](https://kotlinlang.org/docs/reference/native/libraries.html#the-library-format)
+`klib` 是平台相关的库文件格式，类似 `JAR ZIP` 格式，细节详见[官网文档](https://kotlinlang.org/docs/reference/native/libraries.html#the-library-format)
 
 #### 平台库
 
@@ -260,10 +259,9 @@ graph TB
 116 directories, 1 file
 ```
 
-### `Kotlin Native` vs `Swift/Objective-C` 双向互操作
+### Kotlin Native vs Swift/Objective-C 双向互操作
 
-基于`cinteroop`，增加了面向对象的映射。细节详见官网文档：  
-[https://kotlinlang.org/docs/reference/native/objc_interop.html#mappings](https://kotlinlang.org/docs/reference/native/objc_interop.html#mappings)
+基于 `cinteroop`，增加了面向对象的映射。细节详见[官网文档](https://kotlinlang.org/docs/reference/native/objc_interop.html#mappings)
 
 <div class="scrollable-table-wrapper" markdown="block">
 
@@ -586,6 +584,8 @@ actual object Log {
 
 实际生产环境使用，推荐 [Jake Wharton's Timber](https://github.com/JakeWharton/timber)。
 
+--------
+
 ### 场景2: IO File
 
 本地文件读写相比打印输出日志略复杂但也很常用。`Android/JVM` 和 `Java` 服务端的 `IO File` 技术方案一致但场景选型不同。  
@@ -640,6 +640,8 @@ fun readLine(): String?
 所以目前我们只能自己实现双平台的统一封装。这部分实现并不难，可参考  `OpenJDK` 和 `AOSP` 源码。 `Java File` 底层实现原理也是通过 `JNI` 调用 `C POSIX`。`Android` 源码部分改写了 `OpenJDK` 的实现。具体细节详见 `Android SDK FileInputStream/FileOutputSteam` 源码。  
 另外 `Okio 2` 正在进行迁移至 `Kotlin` 和支持多平台，`square` 团队的最终目标是将 `Retrofit, OkHttp` 运行在多平台。详见：  
 [https://github.com/square/okio/issues/370](https://github.com/square/okio/issues/370)
+
+--------
 
 ### 场景3: SQLite
 
