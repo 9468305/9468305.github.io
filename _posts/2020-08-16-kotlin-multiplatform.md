@@ -11,6 +11,16 @@ category: [Technology, Kotlin]
 > 断更两周，最近正在写几个 `Kotlin` 跨平台项目，应该会输 (wa) 出 (keng) 一个系列，所以先归档一篇旧文水货，算是楔子。  
 原载于《携程技术》公众号，2019-06-12，[《携程机票 App Kotlin Multiplatform 初探》](https://mp.weixin.qq.com/s/hFoCEmhKAyeuckQJBhPcGA)。
 
+2019年初，迷上了Kotlin语言，顺带对其跨平台特性非常感兴趣。断断续续写了几个算不上 Demo 的玩票小工程，平时没事翻一翻官网内容更新和 GitHub Issues 讨论，1.3大版本的每一个小版本更新，都会仔细阅读 Change Log，期待 Kotlin Native beta 早日转正。
+
+2019年5月，一时冲动答应了公司公共框架团队同事的邀约，短时间拼凑出一篇水货，硬着头皮上台吹牛。然后威逼利诱自己的Android iOS App 团队人员朝这个方向走。
+
+2019年8月至今，转眼一年过去，踩了很多坑，至今没填完。App 团队人员走了一半，React Native 和 Flutter 的热潮背后，映出 Native 开发人员的寂寥。也幸好遇到了小乔，Kotlin 路途做伴，开山搭桥的头阵先锋。
+
+终于，Kotlin 1.4 Release版即将到来，Kotlin Native 也迎来重大更新。我也该继续写点代码了。
+
+--------
+
 ### Kotlin Multiplatform for Mobile
 
 2017.09 - 2019.05，经过一年半的努力，携程机票 App 团队完成 **90%** 从 `Native` 到 `CRN(Ctrip React Native)` 的技术栈转型。（技术人员转型比例也大致相同）。  
