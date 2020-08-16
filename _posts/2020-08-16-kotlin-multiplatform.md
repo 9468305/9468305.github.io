@@ -17,7 +17,7 @@ category: [Technology, Kotlin]
 
 2019年8月至今，转眼一年过去，踩了很多坑，至今没填完。App 团队人员走了一半，React Native 和 Flutter 的热潮背后，映出 Native 开发人员的寂寥。也幸好遇到了小乔，Kotlin 路途做伴，开山搭桥的头阵先锋。
 
-终于，Kotlin 1.4 Release版即将到来，Kotlin Native 也迎来重大更新。我也该继续写点代码了。
+终于，Kotlin 1.4 Release 版即将到来，Kotlin Native 也迎来重大更新。我也该继续写点代码了。
 
 --------
 
