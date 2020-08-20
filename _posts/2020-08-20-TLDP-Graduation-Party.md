@@ -12,8 +12,8 @@ category: Management
 
 > Winston Churchill
 >
-> We shall go on to the end. We shall fight in France, we shall fight on the seas and oceans, we shall fight with growing confidence and growing strength in the air, we shall defend our island, whatever the cost may be. We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and in the streets, we shall fight in the hills; we shall never surrender, and even if, which I do not for a moment believe, this island or a large part of it were subjugated and starving, then our Empire beyond the seas, armed and guarded by the British Fleet, would carry on the struggle, until, in God's good time, the new world, with all its power and might, steps forth to the rescue and the liberation of the old.
+> I have nothing to offer but blood, toil, tears and sweat......You ask, what is our aim? I can answer in one word: It is victory, victory at all costs, victory in spite of all terror, victory, however long and hard the road may be; for without victory, there is no survival.
 >
->我们将战斗到底。我们将在法国作战，我们将在海洋中作战，我们将以越来越大的信心和越来越强的力量在空中作战，我们将不惜一切代价保卫本土；我们将在海滩作战，我们将在敌人的登陆点作战，我们将在田野和街头作战，我们将在山区作战，我们绝不投降；即使我们这个岛屿或这个岛屿的大部分被征服并陷于饥饿之中——我从来不相信会发生这种情况——我们在海外的帝国臣民，在英国舰队的武装和保护下也会继续战斗，直到新世界在上帝认为适当的时候，拿出它所有一切的力量来拯救和解放这个旧世界。
+> We shall go on to the end. We shall fight in France, we shall fight on the seas and oceans, we shall fight with growing confidence and growing strength in the air, we shall defend our island, whatever the cost may be. We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and in the streets, we shall fight in the hills; we shall never surrender, and even if, which I do not for a moment believe, this island or a large part of it were subjugated and starving, then our Empire beyond the seas, armed and guarded by the British Fleet, would carry on the struggle, until, in God's good time, the new world, with all its power and might, steps forth to the rescue and the liberation of the old.
 
 我们扛住了，疫情之后，携程只会更好。
