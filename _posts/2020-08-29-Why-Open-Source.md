@@ -22,7 +22,7 @@ Copyleft vs Copyright
 + Unix, FreeBSD, Linux
 + GNU (GNU's Not Unix)
 + GPL (General Public License)
-+ 自由软件基金会（Free Software Foundation）
++ FSF (Free Software Foundation)
 
 ### 黑客精神，社区运动
 
