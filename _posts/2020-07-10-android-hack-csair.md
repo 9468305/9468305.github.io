@@ -4,7 +4,7 @@ title: "Android：csair逆向工程"
 description: ""
 image: ../static/chenqi.jpg
 author: ChenQi
-category: Technology
+category: [Technology, Android]
 mermaid: true
 ---
 

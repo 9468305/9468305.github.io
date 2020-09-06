@@ -4,7 +4,7 @@ title: "Android：Java Ping考古"
 description: "java.net.InetAddress.isReachable()"
 image: ../static/ping.png
 author: ChenQi
-category: Technology
+category: [Technology, Android]
 ---
 
 ![ping](../static/ping.png)

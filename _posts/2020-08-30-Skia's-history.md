@@ -5,7 +5,7 @@ description: "Google Android Chrome GUI HWUI Flutter OpenGL"
 mermaid: true
 image: https://skia.org/res/img/logo.png
 author: ChenQi
-category: Technology
+category: [Technology, Android]
 ---
 
 ### Skia.org

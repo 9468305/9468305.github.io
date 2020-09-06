@@ -4,7 +4,7 @@ title: "Android：OBB为何不流行？"
 description: "Android obb format"
 image: ../static/chenqi.jpg
 author: ChenQi
-category: Technology
+category: [Technology, Android]
 ---
 
 之前在知乎上回答的问题，搬运至此。  
