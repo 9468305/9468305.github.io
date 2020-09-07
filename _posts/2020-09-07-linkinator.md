@@ -6,12 +6,10 @@ author: ChenQi
 category: Technology
 ---
 
-### 🐿 linkinator
+### 🐿 [linkinator](https://github.com/JustinBeckwith/linkinator)
 
 A super simple site crawler and broken link checker.  
-https://github.com/JustinBeckwith/linkinator  
-
-检测网站网页链接完整性的 API 库和 CLI 工具。
+一键查死链的 API 库和 CLI 工具。
 
 + 快速扫描本地文件夹或远端站点。
 + 扫描所有包含链接的元素，不仅是 `<a href>` 。
