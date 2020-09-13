@@ -19,7 +19,7 @@ A super simple site crawler and broken link checker.
 ### 安装
 
 ```sh
-$ npm install linkinator
+npm install linkinator
 ```
 
 ### 参数
