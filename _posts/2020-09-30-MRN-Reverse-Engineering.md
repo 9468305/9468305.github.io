@@ -10,7 +10,7 @@ category: [Technology, Android]
 
 携程有 CRN(Ctrip React Native)，美团有 MRN(Meituan React Native)。只看吹水软文自嗨或互嗨是不行的，剥开代码一探究竟。
 
-Talk is cheap, show me your shit code!
+Talk is cheap, show me your shitty code!
 
 ### 准备工作
 
