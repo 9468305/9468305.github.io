@@ -344,8 +344,11 @@ RN Bundle解压缩后的配置信息
 ### 服务端动态加载
 
 启动App，在各业务模块中使用一段时间，触发动态加载，查看手机本地磁盘文件。  
-SD卡存储路径：  
-> /sdcard/Android/data/com.sankuai.meituan/files/cips/common/smart-download/assets/
+SD卡存储路径：
+
+```bash
+/sdcard/Android/data/com.sankuai.meituan/files/cips/common/smart-download/assets/
+```
 
 有2个子文件夹。
 
