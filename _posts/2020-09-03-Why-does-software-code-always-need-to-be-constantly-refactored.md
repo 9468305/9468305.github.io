@@ -7,9 +7,9 @@ category: Technology
 ---
 
 > [Quora](https://qr.ae/pNAnqY) 的一个好问题和好答案，转载机翻记录之。  
-> Answerer:  
-> Mario Galindo Queralt  
->Ph.D. - Artificial Intelligence Researcher and CEO at PAITI  
+Answerer:  
+Mario Galindo Queralt  
+Ph.D. - Artificial Intelligence Researcher and CEO at PAITI
 
 先讲一个真实的故事：[《因为答案已经改变》](http://www.rkndavis.com/business-technology/because-the-answers-have-changed/)
 
