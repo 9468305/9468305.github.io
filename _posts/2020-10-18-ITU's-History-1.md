@@ -7,10 +7,10 @@ category: Technology
 ---
 
 ```txt
-偶然翻到这段历史，转载机翻记录之。  
-源自：  
-https://www.itu.int/zh/about/Pages/default.aspx  
-http://handle.itu.int/11.1004/020.2000/s.031  
+偶然翻到这段历史，转载机翻记录之。
+源自：
+https://www.itu.int/zh/about/Pages/default.aspx
+https://www.itu.int/en/history/Pages/ITUsHistory.aspx
 ```
 
 ### 简介
