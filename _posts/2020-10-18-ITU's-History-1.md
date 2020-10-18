@@ -36,9 +36,13 @@ https://www.itu.int/en/history/Pages/ITUsHistory.aspx
 
 ![1865年，巴黎，第一次国际电报大会的代表](https://www.itu.int/en/history/ImagesConferences/1865-781775-no-caption.jpg)
 
+图片：1865年，巴黎，第一次国际电报大会的代表
+
 电报线缆很快连接了许多国家的主要城镇。1850年一条[海底电报线缆](https://www.itu.int/itunews/manager/display.asp?lang=en&year=2006&issue=10&ipage=pioneers&ext=html)（使用古塔胶涂抹保护）在英国和法国之间铺设完成，并于次年开始营运。1858年，第一条跨大西洋电报电缆铺设完成。当时存在一个问题。在越过国界的地方，必须停止传递信息并将其转换至下一个管辖权区域内的特定系统。为了简化事务，区域性协议开始逐渐诞生，在欧洲巴黎举行的一次由20个国家的代表出席的[国际电报大会](http://handle.itu.int/11.1004/020.1000/4.1)上，共同寻求克服障碍并提高服务效率的方法。他们将创建一个框架，使电报设备标准化，制定统一的操作说明，并制定通用的国际资费和会计规则。
 
 ![1865年，国际电报联盟签署了第一份公约](https://www.itu.int/en/history/ImagesOverviewOfITUsHistory/1865-Convention-Collage.jpg)
+
+图片：1865年，国际电报联盟签署了第一份公约
 
 1865年5月17日，第一届[国际电报公约](http://handle.itu.int/11.1004/020.1000/4.1.43.fr.200)由其二十个创始成员在巴黎签署，国际电报联盟（国际电联的第一代机构）成立，负责监督对该协议的后续修订。这个重要的日期（5月17日）最终成为[世界电信和信息社会日](https://www.itu.int/en/wtisd/Pages/about.aspx)。
 
@@ -52,6 +56,10 @@ https://www.itu.int/en/history/Pages/ITUsHistory.aspx
 
 ![格雷厄姆·贝尔（Graham Bell）1877年电话的最早插图之一](https://www.itu.int/en/history/ImagesOverviewOfITUsHistory/EarlyTelephone.jpg)
 
+图片：格雷厄姆·贝尔（Graham Bell）1877年电话的最早插图之一
+
 电话意味着您实际上可以与远距离的另一个人说话，以及发送莫尔斯电码电报。但是如果线缆无法到达，例如在船上，该怎么办？1880年，在伦敦皇家学会上，[戴维·爱德华·休斯（David Edward Hughes）](https://www.itu.int/itunews/manager/display.asp?lang=en&year=2007&issue=07&ipage=pioneers&ext=html)展示了后来被公认为无线信号的技术。1890年代，[尼古拉·特斯拉（Nikola Tesla）](https://www.itu.int/itunews/manager/display.asp?lang=en&year=2006&issue=07&ipage=pioneers&ext=html)，[贾加迪什·钱德拉·玻色（Jagadish Chandra Bose）](https://www.itu.int/itunews/manager/display.asp?lang=en&year=2008&issue=07&ipage=34&ext=html)，[亚历山大·斯蒂芬诺维奇·波波夫（Alexander Stepanovich Popov）](https://www.itu.int/net/itunews/issues/2009/09/57.aspx)和古列尔莫·马可尼（Guglielmo Marconi）等发明者开始进行实用的实验。无线电，即“无线电报”诞生了。
 
 ![“无线电报”的发明者[从左上方顺时针旋转]戴维·爱德华·休斯，尼古拉·特斯拉，亚历山大·斯蒂潘诺维奇·波波夫， 古列尔莫·马可ni和Jagadish Chandra Bose。](https://www.itu.int/en/history/ImagesOverviewOfITUsHistory/RadioInventorsCollage.jpg)
+
+图片：“无线电报”的发明者[从左上方顺时针旋转]戴维·爱德华·休斯，尼古拉·特斯拉，亚历山大·斯蒂潘诺维奇·波波夫， 古列尔莫·马可ni和Jagadish Chandra Bose。
