@@ -20,7 +20,7 @@ https://www.itu.int/en/history/Pages/ITUsHistory-page-3.aspx
 
 ![《无线电规则》第一版（1906年）只有十五页](https://www.itu.int/en/history/ImagesOverviewOfITUsHistory/1906-RadioReg-TableOfContents.jpg)
 
-图片：《无线电规则》第一版（1906年）只有十五页
+图片：《无线电规则》第一版（1906年）只有十五页。
 
 1906年在柏林举行了筹备活动，随后有29个国家的代表参加了[第一届国际无线电报大会](http://handle.itu.int/11.1004/020.1000/4.36)。它决定由国际电联主席团担任会议的中央管理人，该局的无线电报科于1907年5月1日开始运作。
 
@@ -30,15 +30,15 @@ https://www.itu.int/en/history/Pages/ITUsHistory-page-3.aspx
 
 图片：1982年，志愿者收集并包装了10,000册两册的《无线电规则》。如果有可能将一叠51,393,608张A4尺寸的页面打印出来，结果将是埃菲尔铁塔（300米）高度的近12倍！
 
-![2012年版的《无线电规则》共四册，以国际电联的六种正式语文提供](https://www.itu.int/en/history/ImagesOverviewOfITUsHistory/2012-RadioRegs-1.jpg)
+![2012年版《无线电规则》](https://www.itu.int/en/history/ImagesOverviewOfITUsHistory/2012-RadioRegs-1.jpg)
 
-图片：2012年版的《无线电规则》共四册，以国际电联的六种正式语文提供
+图片：2012年版《无线电规则》共四册，以国际电联的六种正式语言提供。
 
 会议还将[“SOS”](https://www.itu.int/itunews/manager/display.asp?lang=en&year=2006&issue=06&ipage=pioneers&ext=html)确立为国际海上遇险呼叫，这是紧急通信至关重要领域的第一步。但是1912年泰坦尼克号沉没表明需要进一步改进。悲剧发生仅几个月后，在伦敦举行的1912年国际无线电报大会就船上无线电遇险信号的通用波长达成了一致。此外，还指示每艘船应定期保持无线电的静默状态，以便操作员在收听遇险呼叫时能够保持沉默。
 
-![在1912年4月的泰坦尼克号灾难之后，第二届国际无线电报大会在伦敦举行。安全措施是讨论的重点，大会批准了该公约的第9条，该条将遇险电话的优先级确定为高于其他电报电话。](https://www.itu.int/en/history/ImagesOverviewOfITUsHistory/Titanic-SOS.jpg)
+![泰坦尼克号灾难](https://www.itu.int/en/history/ImagesOverviewOfITUsHistory/Titanic-SOS.jpg)
 
-图片：在1912年4月的泰坦尼克号灾难之后，第二届国际无线电报大会在伦敦举行。安全措施是讨论的重点，大会批准了该公约的第9条，该条将遇险电话的优先级确定为高于其他电报电话。
+图片：在1912年4月的泰坦尼克号灾难之后，第二届国际无线电报大会在伦敦举行。讨论的重点是安全措施，大会批准了该公约的第9条，将遇险电话的优先级定为高于其他电报电话。
 
 在整个1920年代，无线电的使用迅速增长，包括流行的广播。为了提高运营效率和质量，1927年的华盛顿会议为各种无线电服务（固定，水上和航空移动，广播，业余和实验性）分配了频段。
 

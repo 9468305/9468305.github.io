@@ -34,9 +34,9 @@ https://www.itu.int/en/history/Pages/ITUsHistory.aspx
 
 几千年来，长距离传送复杂消息的最快方法是骑马。18世纪末，克劳德·查普（Claude Chappe）在法国建立了一个可视信号站点网络。然后是电气革命。开始进行通过线缆发送电信号的实验，1839年，[查尔斯惠斯通（Charles Wheatstone）](https://www.itu.int/itunews/manager/display.asp?lang=en&year=2006&issue=09&ipage=pioneers&ext=html)在伦敦创建了世界上第一个商业电报服务。在美国，塞缪尔·摩尔斯（Samuel Morse）使用新的摩尔斯电码在1844年发送了他的第一篇电报消息。早在1843年，亚历山大·贝恩（Alexander Bain）在英国注册了一种用于传输图像的[传真机](https://www.itu.int/itunews/manager/display.asp?lang=en&year=2007&issue=04&ipage=pioneers&ext=html)的专利。
 
-![1865年，巴黎，第一次国际电报大会的代表](https://www.itu.int/en/history/ImagesConferences/1865-781775-no-caption.jpg)
+![1865年巴黎，第一次国际电报大会的代表](https://www.itu.int/en/history/ImagesConferences/1865-781775-no-caption.jpg)
 
-图片：1865年，巴黎，第一次国际电报大会的代表
+图片：1865年巴黎，第一次国际电报大会的代表
 
 电报线缆很快连接了许多国家的主要城镇。1850年一条[海底电报线缆](https://www.itu.int/itunews/manager/display.asp?lang=en&year=2006&issue=10&ipage=pioneers&ext=html)（使用古塔胶涂抹保护）在英国和法国之间铺设完成，并于次年开始营运。1858年，第一条跨大西洋电报电缆铺设完成。当时存在一个问题。在越过国界的地方，必须停止传递信息并将其转换至下一个管辖权区域内的特定系统。为了简化事务，区域性协议开始逐渐诞生，在欧洲巴黎举行的一次由20个国家的代表出席的[国际电报大会](http://handle.itu.int/11.1004/020.1000/4.1)上，共同寻求克服障碍并提高服务效率的方法。他们将创建一个框架，使电报设备标准化，制定统一的操作说明，并制定通用的国际资费和会计规则。
 
@@ -46,7 +46,7 @@ https://www.itu.int/en/history/Pages/ITUsHistory.aspx
 
 1865年5月17日，第一届[国际电报公约](http://handle.itu.int/11.1004/020.1000/4.1.43.fr.200)由其二十个创始成员在巴黎签署，国际电报联盟（国际电联的第一代机构）成立，负责监督对该协议的后续修订。这个重要的日期（5月17日）最终成为[世界电信和信息社会日](https://www.itu.int/en/wtisd/Pages/about.aspx)。
 
-> 驻瑞士的国际电联
+> **驻瑞士的国际电联**
 >
 > 1868年在维也纳举行的国际电报大会决定，国际电联将由其在瑞士伯尔尼的部门开展业务。它最初只有三名员工。
 >
@@ -54,12 +54,12 @@ https://www.itu.int/en/history/Pages/ITUsHistory.aspx
 
 仅仅十年之后，通信技术的下一个飞跃发生在1876年，电话获得了专利。1885年在柏林举行的国际电报大会上，国际电联开始起草有关电话的国际法规。在《电报规章》中增加了一篇文章，将五分钟作为收费单位，如果还有其他要求使用电话线的请求，则通话时间限制为十分钟。
 
-![格雷厄姆·贝尔（Graham Bell）1877年电话的最早插图之一](https://www.itu.int/en/history/ImagesOverviewOfITUsHistory/EarlyTelephone.jpg)
+![早期电话](https://www.itu.int/en/history/ImagesOverviewOfITUsHistory/EarlyTelephone.jpg)
 
 图片：格雷厄姆·贝尔（Graham Bell）1877年电话的最早插图之一
 
 电话意味着您实际上可以与远距离的另一个人说话，以及发送莫尔斯电码电报。但是如果线缆无法到达，例如在船上，该怎么办？1880年，在伦敦皇家学会上，[戴维·爱德华·休斯（David Edward Hughes）](https://www.itu.int/itunews/manager/display.asp?lang=en&year=2007&issue=07&ipage=pioneers&ext=html)展示了后来被公认为无线信号的技术。1890年代，[尼古拉·特斯拉（Nikola Tesla）](https://www.itu.int/itunews/manager/display.asp?lang=en&year=2006&issue=07&ipage=pioneers&ext=html)，[贾加迪什·钱德拉·玻色（Jagadish Chandra Bose）](https://www.itu.int/itunews/manager/display.asp?lang=en&year=2008&issue=07&ipage=34&ext=html)，[亚历山大·斯蒂芬诺维奇·波波夫（Alexander Stepanovich Popov）](https://www.itu.int/net/itunews/issues/2009/09/57.aspx)和古列尔莫·马可尼（Guglielmo Marconi）等发明者开始进行实用的实验。无线电，即“无线电报”诞生了。
 
-![“无线电报”的发明者[从左上方顺时针旋转]戴维·爱德华·休斯，尼古拉·特斯拉，亚历山大·斯蒂潘诺维奇·波波夫， 古列尔莫·马可ni和Jagadish Chandra Bose。](https://www.itu.int/en/history/ImagesOverviewOfITUsHistory/RadioInventorsCollage.jpg)
+![“无线电报”的发明者](https://www.itu.int/en/history/ImagesOverviewOfITUsHistory/RadioInventorsCollage.jpg)
 
-图片：“无线电报”的发明者[从左上方顺时针旋转]戴维·爱德华·休斯，尼古拉·特斯拉，亚历山大·斯蒂潘诺维奇·波波夫， 古列尔莫·马可ni和Jagadish Chandra Bose。
+图片：“无线电报”的发明者[从左上方顺时针旋转]戴维·爱德华·休斯，尼古拉·特斯拉，亚历山大·斯蒂潘诺维奇·波波夫， 古列尔莫·马可尼和贾加迪什·钱德拉·玻色。

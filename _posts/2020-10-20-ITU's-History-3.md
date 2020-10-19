@@ -46,11 +46,11 @@ https://www.itu.int/en/history/Pages/ITUsHistory-page-5.aspx
 
 除了连接广播和有线电话系统以及提供导航服务外，卫星还用于移动通信中。例如，在紧急情况下，卫星电话可能对于无法访问替代网络的地区至关重要。1992年，国际电联首次进行了频谱分配，以满足卫星全球移动个人通信（GMPCS）的需求。
 
-![卫星电话设备应用于灾难之后](https://www.itu.int/en/history/ImagesOverviewOfITUsHistory/INMARSAT-Satellite-Phone-970055.jpg)
+![卫星电话设备应用于灾后](https://www.itu.int/en/history/ImagesOverviewOfITUsHistory/INMARSAT-Satellite-Phone-970055.jpg)
 
-图片：卫星电话设备应用于灾难之后
+图片：卫星电话设备应用于灾后
 
-国际电联还响应射电天文学家和其他太空科学家的需求，他们从事天气预报和监测地球环境与气候等重要工作。 与基于卫星的灾害预警系统等[应急通信](https://www.itu.int/emergencytelecoms)一样，[气候变化](https://www.itu.int/en/action/environment-and-climate-change/Pages/default-BAK.aspx)也是国际电联的主要研究课题。
+国际电联还响应射电天文学家和其他太空科学家的需求，支撑他们从事天气预报和地球环境与气候监测等重要工作。 与基于卫星的灾害预警系统等[应急通信](https://www.itu.int/emergencytelecoms)一样，[气候变化](https://www.itu.int/en/action/environment-and-climate-change/Pages/default-BAK.aspx)也是国际电联的主要研究课题。
 
 ![WMO GOS](https://www.itu.int/en/history/ImagesOverviewOfITUsHistory/WMO-GOS-fullsize.jpg)
 
