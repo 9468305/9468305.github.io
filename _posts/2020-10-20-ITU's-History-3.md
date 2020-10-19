@@ -30,7 +30,7 @@ https://www.itu.int/en/history/Pages/ITUsHistory-page-5.aspx
 
 ### 太空和卫星
 
-1957年10月4日，苏联发射了世界上第一颗人造卫星Sputnik-1，太空时代由此开始。不久之后，卫星开始用于通讯。1960年美国发射无源卫星[Echo-1](https://www.itu.int/itunews/manager/display.asp?lang=en&year=2006&issue=02&ipage=pioneers&ext=html)，随后1962年第一颗有源直接中继通信卫星[Telstar-1](https://www.itu.int/itunews/manager/display.asp?lang=en&year=2006&issue=02&ipage=pioneers&ext=html)（法英美联合项​​目）发射。同年7月23日，它使大西洋两岸的人们能够同时观看直播电视节目。
+1957年10月4日，苏联发射了世界上第一颗人造卫星Sputnik-1，太空时代由此开始。不久之后，卫星开始用于通讯。1960年美国发射无源卫星[Echo-1](https://www.itu.int/itunews/manager/display.asp?lang=en&year=2006&issue=02&ipage=pioneers&ext=html)，随后1962年第一颗有源直接中继通信卫星[Telstar-1](https://www.itu.int/itunews/manager/display.asp?lang=en&year=2006&issue=02&ipage=pioneers&ext=html)（法英美联合项目）发射。同年7月23日，它使大西洋两岸的人们能够同时观看直播电视节目。
 
 ![Telstar-1通信卫星，背景为北美星云](https://www.itu.int/en/history/ImagesOverviewOfITUsHistory/Telstar-1-NASA.jpg)
 
