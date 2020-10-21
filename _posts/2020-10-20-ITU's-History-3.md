@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tech：国际电信联盟的历史 3"
-description: "ITU ITU-T SG16 Q.6 VCEG MPEG HEVC 电视"
+description: "ITU ITU-T SG16 Q.6 VCEG MPEG HEVC 电视太空卫星"
 author: ChenQi
 category: Technology
 ---
