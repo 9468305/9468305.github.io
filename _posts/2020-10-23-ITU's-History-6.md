@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tech：国际电信联盟的历史 6"
-description: "ITU ITU-T SG16 Q.6 VCEG MPEG HEVC "
+description: "ITU ITU-T SG16 Q.6 VCEG MPEG HEVC 现在和未来，光明篇结束，黑暗篇开启。"
 author: ChenQi
 category: Technology
 ---
