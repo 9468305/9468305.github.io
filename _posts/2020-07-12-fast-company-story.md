@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "读书：从前有只不会讲故事的恐龙"
-description: ""
+description: "Fast company 快公司"
 image: ../static/fast-company-story.png
 author: ChenQi
 category: Reading

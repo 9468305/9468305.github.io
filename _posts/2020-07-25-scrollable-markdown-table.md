@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tech：Markdown表格自适应滚动布局"
+title: "Tech：Markdown表格自适应布局"
 description: "Jekyll Kramdown Markdown Table Scrollable CSS Layout"
 image: https://kramdown.gettalong.org/overview.png
 author: ChenQi

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "TLDP 004：员工跳槽怎么办"
+title: "TLDP 004：员工跳槽怎么办？"
 description: "Technology Leadership Development Program"
 image: ../static/chenqi.jpg
 author: ChenQi

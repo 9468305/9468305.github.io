@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "读书：家鸭与野鸭的投币寄物柜"
+title: "读书：家鸭与野鸭的投币式寄物柜"
 description: ""
 image: ../static/fdndgcl.png
 author: ChenQi
