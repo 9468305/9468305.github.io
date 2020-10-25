@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "TLDP 022：结业典礼（欢乐版）"
+title: "TLDP 022：结业典礼"
 description: "Technology Leadership Development Program, Graduation Party"
 image: ../static/chenqi.jpg
 author: ChenQi

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tech：C++ JIT Compilation"
+title: "Tech：C++ JIT 编译"
 description: "ClangJIT, C++, Clang, LLVM, Just-in-Time, Specialization"
 author: ChenQi
 category: Technology
