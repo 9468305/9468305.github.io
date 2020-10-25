@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "读书：有只不会讲故事的恐龙"
+title: "读书：从前有只不会讲故事的恐龙"
 description: ""
 image: ../static/fast-company-story.png
 author: ChenQi

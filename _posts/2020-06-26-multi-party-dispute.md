@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "TLDP 009：上级意见不一？"
+title: "TLDP 009：领导们意见不一致？"
 description: "Technology Leadership Development Program"
 image: ../static/chenqi.jpg
 author: ChenQi
