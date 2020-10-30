@@ -8,7 +8,7 @@ author: ChenQi
 category: [Technology, Kotlin]
 ---
 
-> 断更两周，最近正在写几个 `Kotlin` 跨平台项目，应该会输 (wa) 出 (keng) 一个系列，所以先归档一篇旧文水货，算是楔子。  
+> 断更两周，最近正在写几个 Kotlin 跨平台项目，应该会输 (wa) 出 (keng) 一个系列，所以先归档一篇旧文水货，算是楔子。  
 原载于《携程技术》公众号，2019-06-12，[《携程机票 App Kotlin Multiplatform 初探》](https://mp.weixin.qq.com/s/hFoCEmhKAyeuckQJBhPcGA)。
 
 2019年初，迷上了Kotlin语言，顺带对其跨平台特性非常感兴趣。断断续续写了几个算不上 Demo 的玩票小工程，平时没事翻一翻官网内容更新和 GitHub Issues 讨论，1.3大版本的每一个小版本更新，都会仔细阅读 Change Log，期待 Kotlin Native beta 早日转正。
@@ -23,10 +23,10 @@ category: [Technology, Kotlin]
 
 ### Kotlin Multiplatform for Mobile
 
-2017.09 - 2019.05，经过一年半的努力，携程机票 App 团队完成 **90%** 从 `Native` 到 `CRN(Ctrip React Native)` 的技术栈转型。（技术人员转型比例也大致相同）。  
+2017.09 - 2019.05，经过一年半的努力，携程机票 App 团队完成 **90%** 从 Native 到 CRN(Ctrip React Native) 的技术栈转型。（技术人员转型比例也大致相同）。  
 2019年初，我们开始思考下一步规划。  
-除了继续做深 `React Native` 技术栈，更快更好的迭代交付机票业务需求，优化用户体验，我们还需要从具体业务逻辑实现层次抽离出来，从一个完整的应用程序架构设计和实现的角度，寻找跨平台技术的未来方向。  
-`React Native` 和 `Flutter` 这类大前端技术方案已经可以很好的支撑用户界面和组件，业务逻辑需求功能的实现，但是“单线程”动态脚本语言在以下领域仍显不足。  
+除了继续做深 React Native 技术栈，更快更好的迭代交付机票业务需求，优化用户体验，我们还需要从具体业务逻辑实现层次抽离出来，从一个完整的应用程序架构设计和实现的角度，寻找跨平台技术的未来方向。  
+React Native 和 Flutter 这类大前端技术方案已经可以很好的支撑用户界面和组件，业务逻辑需求功能的实现，但是“单线程”动态脚本语言在以下领域仍显不足。  
 
 + 灵活调用强大的平台/厂商 API (AI, AR, mult-core GPU, ...)
 + 高性能计算
@@ -34,11 +34,11 @@ category: [Technology, Kotlin]
 + 后台任务
 + 低功耗
 
-我们希望能够找到一种可靠的跨平台，原生，或能够与原生 API 进行灵活自由双向互操作的技术方案。经过一段时间的针对 `Kotlin` 及相关开源社区的调研，观察，`Kotlin Multiplatform` 技术在这方面展现出了良好的发展潜力。  
+我们希望能够找到一种可靠的跨平台，原生，或能够与原生 API 进行灵活自由双向互操作的技术方案。经过一段时间的针对 Kotlin 及相关开源社区的调研，观察，Kotlin Multiplatform 技术在这方面展现出了良好的发展潜力。  
 
 ### Native Multiplatform
 
-传统主流跨平台原生方案是 `C/C++`，目前依然是最被广泛使用的。`React Native` 和 `Flutter` 底层实现也是如此。
+传统主流跨平台原生方案是 C/C++，目前依然是最被广泛使用的。React Native 和 Flutter 底层实现也是如此。
 
 ```mermaid
 graph TB
@@ -62,7 +62,7 @@ graph TB
     end
 ```
 
-`Kotlin Multiplatform` 跨平台迁移如下图。
+Kotlin Multiplatform 跨平台迁移如下图。
 
 ```mermaid
 graph TB
@@ -90,7 +90,7 @@ graph TB
 
 ### Kotlin Native
 
-了解 `Kotlin Multiplatform` 需要先从 `Kotlin Native` 入手。相比 `Kotlin/JVM`， `Kotlin Native` 使用 `Kotlin` 语言编译器， 配合 `LLVM backend`，将 `Kotlin` 代码编译为平台原生二进制文件，不依赖虚拟机或运行时环境。当前 `LLVM` 版本 6.0.1 。官方正在将编译方案从 `LLVM backend` 迁移到 `Clang frontend`。  
+了解 Kotlin Multiplatform 需要先从 Kotlin Native 入手。相比 Kotlin/JVM， Kotlin Native 使用 Kotlin 语言编译器， 配合 LLVM backend，将 Kotlin 代码编译为平台原生二进制文件，不依赖虚拟机或运行时环境。当前 LLVM 版本 6.0.1 。官方正在将编译方案从 LLVM backend 迁移到 Clang frontend。  
 目前已支持的平台：
 
 + iOS 9.0+ (arm32, arm64, x86_64 模拟器)
@@ -104,25 +104,25 @@ graph TB
 
 #### cinterop
 
-`Kotlin Native` 官方附带工具，用于快速生成 `Kotlin` 与平台 C 库互相调用操作所需的内容。  
+Kotlin Native 官方附带工具，用于快速生成 Kotlin 与平台 C 库互相调用操作所需的内容。  
 首先创建一个`.def`文件，描述需要包含在语言绑定的内容。  
-然后使用 `cinterop` 分析 C 头文件，映射生成 `Kotlin` 语言的类型，函数和常量，完成绑定。  
-最后通过 `LLVM` 编译器链接生成最终的可执行文件 `*.kexe` 或库文件 `*.klib`。  
+然后使用 `cinterop` 分析 C 头文件，映射生成 Kotlin 语言的类型，函数和常量，完成绑定。  
+最后通过 LLVM 编译器链接生成最终的可执行文件 `*.kexe` 或库文件 `*.klib`。  
 `kexe` 是平台相关的可执行程序文件格式。  
-`klib` 是平台相关的库文件格式，类似 `JAR ZIP` 格式，细节详见[官网文档](https://kotlinlang.org/docs/reference/native/libraries.html#the-library-format)
+`klib` 是平台相关的库文件格式，类似 JAR ZIP 格式，细节详见[官网文档](https://kotlinlang.org/docs/reference/native/libraries.html#the-library-format)
 
 #### 平台库
 
-大多数情况下，我们并不需要使用 `cinterop` 手动生成所有所需的 C 库绑定。`Kotlin Native SDK` 已经提供了大部分平台的原生库绑定。例如：  
+大多数情况下，我们并不需要使用 `cinterop` 手动生成所有所需的 C 库绑定。Kotlin Native SDK 已经提供了大部分平台的原生库绑定。例如：  
 
 + Linux POSIX
 + Windows Win32
 + macOS/iOS Apple Framework, POSIX
 + 以及各平台的常用热门库，`OpenGL, zlib` 等
 
-`Kotlin Native` 在本机开发时默认会将其下载到 `~/.konan/` 文件夹，例如 `~/.konan/kotlin-native-macos-1.2.1/`, 平台库文件位于`~/.konan/kotlin-native-macos-1.2.1/klib/platform/`，已包含以下内容，可见大部分平台SDK都已预处理完成。  
+Kotlin Native 在本机开发时默认会将其下载到 `~/.konan/` 文件夹，例如 `~/.konan/kotlin-native-macos-1.2.1/`, 平台库文件位于`~/.konan/kotlin-native-macos-1.2.1/klib/platform/`，已包含以下内容，可见大部分平台SDK都已预处理完成。  
 
-`Android Native Arm32`
+Android Native Arm32
 
 ```txt
 .
@@ -144,7 +144,7 @@ graph TB
 13 directories, 1 file
 ```
 
-`iOS Arm64`
+iOS Arm64
 
 ```txt
 .
@@ -304,24 +304,24 @@ Function type | Function type | Block pointer type
 
 ### Kotlin Multiplatform
 
-`Kotlin 1.3` 重新设计了多平台工程项目架构，以提高工程结构的灵活性和扩展性，更容易共享复用 `Kotlin` 代码。  
-`Kotlin Native` 变成 `Kotlin Multiplatfrom` 的目标平台之一， 相关库和插件转为内部实现。  
-例如提供给应用程序开发人员使用的 `Gradle` 插件，从 `org.jetbrains.kotlin.konan` 变更为 `org.jetbrains.kotlin.multiplatform`。  
-`konan` 变成 `multiplatform` 内部引用的依赖库，创建 `Kotlin Gradle Project` 时后台自动下载并存储在本机 `~/.konan/` 文件夹。  
-为了减少开发人员的误解，对外提供的 `SDK` 版本号都统一跟随 `Kotlin` 语言版本号。  
-例如 `Kotlin` 语言最新版本是 `1.3.31`，各平台库 `SDK` 版本号也一致，而 `kotlin native macos 1.2.1` 仅用于 `Kotlin` 内部开发人员的版本标签，对使用者透明，我们无需关心。  
-因此网上搜索到的大部分基于 `konan` 的文章教程和 `GitHub` 源码均已过时，需留意 `Gradle Project` 配置中是否基于 `multiplatform plugin`。包括官网部分文档。  
+Kotlin 1.3 重新设计了多平台工程项目架构，以提高工程结构的灵活性和扩展性，更容易共享复用 Kotlin 代码。  
+Kotlin Native 变成 Kotlin Multiplatfrom 的目标平台之一， 相关库和插件转为内部实现。  
+例如提供给应用程序开发人员使用的 Gradle 插件，从 `org.jetbrains.kotlin.konan` 变更为 `org.jetbrains.kotlin.multiplatform`。  
+`konan` 变成 `multiplatform` 内部引用的依赖库，创建 Kotlin Gradle Project 时后台自动下载并存储在本机 `~/.konan/` 文件夹。  
+为了减少开发人员的误解，对外提供的 SDK 版本号都统一跟随 Kotlin 语言版本号。  
+例如 Kotlin 语言最新版本是 1.3.31，各平台库 SDK 版本号也一致，而 `kotlin native macos 1.2.1` 仅用于 Kotlin 内部开发人员的版本标签，对使用者透明，我们无需关心。  
+因此网上搜索到的大部分基于 `konan` 的文章教程和 GitHub 源码均已过时，需留意 Gradle Project 配置中是否基于 multiplatform plugin。包括官网部分文档。  
 
-`IntelliJ IDEA` 提供了 `Kotlin Mulitplatform` 工程模版。实际上 `IDEA + Android SDK` 可以替代 `Android Studio` 绝大部分的开发工作。其针对 `Native` 平台有4种模版，大同小异，区别仅是 `Gradle Module` 结构略有不同。  
+IntelliJ IDEA 提供了 Kotlin Mulitplatform 工程模版。实际上 IDEA + Android SDK 可以替代 Android Studio 绝大部分的开发工作。其针对 Native 平台有4种模版，大同小异，区别仅是 Gradle Module 结构略有不同。  
 
 ![IntelliJ IDEA Kotlin mpp template](../static/idea2019.jpg)
 
 + `Native` 模版是针对单一平台的最小化工程模版。
-+ `Mobile Android/iOS` 模版沿用 `Android` 工程默认结构，将 `Android` 主工程，`Kotlin Common` 代码集放在`root/app/src`，根目录额外增加了一个 `iOS` 主工程文件夹。
++ `Mobile Android/iOS` 模版沿用 Android 工程默认结构，将 Android 主工程，Kotlin Common 代码集放在`root/app/src`，根目录额外增加了一个 iOS 主工程文件夹。
 + `Multiplatform Library` 和 `Mobile Shared Library` 非常相似，可以简单的认为后者是前者的子集。  
-前者包含 `Kotlin/JS` 和3个 `Native（macOS，Windows，Linux）`平台。  
-后者仅包含 `Android，iOS` 2个平台。  
-其中仅有一处细微差异。前者 `jvmMain` 模块依赖 `stdlib-jdk8`，后者 `jvmMain` 模块依赖 `stdlib`。即前者 `JVM` 运行环境是 `Java` 服务端，后者 `JVM` 运行环境是 `Android` 设备。
+前者包含 Kotlin/JS 和3个 Native（macOS，Windows，Linux）平台。  
+后者仅包含 Android，iOS 2个平台。  
+其中仅有一处细微差异。前者 jvmMain 模块依赖 stdlib-jdk8，后者 jvmMain 模块依赖 stdlib。即前者 JVM 运行环境是 Java 服务端，后者 JVM 运行环境是 Android 设备。
 + `Mobile Shared Library` 是最简结构，文件夹如下。
 
 ```txt
@@ -368,7 +368,7 @@ Function type | Function type | Block pointer type
 ```
 
 --------
-接下来我们需要首先解决一些平台相关的上手问题，结合一些简单且实际存在的小场景，探索 `Kotlin Multiplatform` 的实践现状。
+接下来我们需要首先解决一些平台相关的上手问题，结合一些简单且实际存在的小场景，探索 Kotlin Multiplatform 的实践现状。
 
 ### 场景1：Logger
 
@@ -414,7 +414,7 @@ fun androidLog() {
 
 #### iOS os_log
 
-忽略 `C print` 和 `Objective-C NSLog`，仅看 `iOS 10` 提供的 `unified logging system`。
+忽略 `C print` 和 `Objective-C NSLog`，仅看 iOS 10 提供的 unified logging system。
 
 ```objc
 void iOSLog()
@@ -430,8 +430,8 @@ void iOSLog()
 
 #### Kotlin Log - Common Expect
 
-参考 `android.util.Log`，复制一份 `Kotlin Common` 模块的声明。  
-跨平台公共模块的实现，除了使用常规的 `Interface/Implementation` 方案，`Kotlin` 提供了 `expect/actual` 声明语法。  
+参考 android.util.Log，复制一份 Kotlin Common 模块的声明。  
+跨平台公共模块的实现，除了使用常规的 `Interface/Implementation` 方案，Kotlin 提供了 `expect/actual` 声明语法。  
 这里使用 `expect` 关键字声明一个单例Log对象的预期。其类成员方法等同于Java的纯虚方法。
 
 ```Kotlin
@@ -477,7 +477,7 @@ actual object Log {
 
 #### Kotlin Log - iOS Actual
 
-由于`cinterop`工具仅处理C库的实例和函数的绑定，不能实现 `macro`宏定义的绑定。而`os_log()`提供的常用API实际是 `macro`宏定义，所以我们需要找到其内部实际调用的函数 `_os_log_internal()`。这对新手可能是一个小坑，在未详细了解平台API的情况下，在 `Kotlin` 平台库中费时费力查找绑定方法无果。  
+由于`cinterop`工具仅处理C库的实例和函数的绑定，不能实现 macro 宏定义的绑定。而`os_log()`提供的常用API实际是 macro 宏定义，所以我们需要找到其内部实际调用的函数 `_os_log_internal()`。这对新手可能是一个小坑，在未详细了解平台API的情况下，在 Kotlin 平台库中费时费力查找绑定方法无果。  
 
 ```objc
 // <os/log.h> declaration
@@ -500,7 +500,7 @@ actual object Log {
 extern struct mach_header __dso_handle;
 ```
 
-下面这段实现是纯 `Kotlin` 语言代码，是上文中 `Kotlin Common` 的 `Log` 单例对象 `expect` 声明对应的 `actual`实现。调用 `Kotlin Native iOS` 平台库已提供好的 `os_log API` 绑定。  
+下面这段实现是纯 Kotlin 语言代码，是上文中 Kotlin Common 的 `Log` 单例对象 `expect` 声明对应的 `actual`实现。调用 Kotlin Native iOS 平台库已提供好的 os_log API 绑定。  
 
 ```kotlin
 // Kotlin iOS Implementation
@@ -527,8 +527,8 @@ actual object Log {
 
 #### Kotlin Log - AndroidNativeArm Actual
 
-大部分业务场景中，我们使用 `Kotlin/JVM` 实现 `Android` 平台功能，`Kotlin Native for AndroidNativeArm32/64` 可用但仍不好用。我们简单看看其实现。  
-与 `iOS Native` 类似，只需在 `build.gradle` 文件中添加相应 `Target`。这里使用了 `Gradle Kotlin DSL` 新版本。使用 `Kotlin` 编写 `Gradle` 配置文件的体验比 `Groovy` 更佳，IDE支持语法高亮，自动补全，代码跳转，编译提示等便捷功能。  
+大部分业务场景中，我们使用 Kotlin/JVM 实现 Android 平台功能，Kotlin Native for AndroidNativeArm32/64 可用但仍不好用。我们简单看看其实现。  
+与 iOS Native 类似，只需在 build.gradle 文件中添加相应 Target。这里使用了 Gradle Kotlin DSL 新版本。使用 Kotlin 编写 Gradle 配置文件的体验比 Groovy 更佳，IDE支持语法高亮，自动补全，代码跳转，编译提示等便捷功能。  
 
 ```kotlin
 androidNativeArm32() {
@@ -538,7 +538,7 @@ androidNativeArm32() {
 }
 ```
 
-`Android NDK Log API`
+Android NDK Log API
 
 ```c
 /**
@@ -559,7 +559,7 @@ int __android_log_print(int prio, const char* tag, const char* fmt, ...)
     ;
 ```
 
-继续纯 `Kotlin` 语言实现。  
+继续纯 Kotlin 语言实现。  
 
 ```kotlin
 // Kotlin AndroidNativeArm Implementation
@@ -598,7 +598,7 @@ actual object Log {
 
 ### 场景2: IO File
 
-本地文件读写相比打印输出日志略复杂但也很常用。`Android/JVM` 和 `Java` 服务端的 `IO File` 技术方案一致但场景选型不同。  
+本地文件读写相比打印输出日志略复杂但也很常用。Android/JVM 和 Java 服务端的 IO File 技术方案一致但场景选型不同。  
 
 + Java IO (Blocking IO)  
 Default IO Streaming.  
@@ -607,10 +607,10 @@ Since 1.4.
 + Java NIO2 (Asynchronous I/O, AIO)  
 Since 7, Enhancements in 8.
 
-移动端常用 `Blocking IO`，一方面是因为该方案适合嵌入式平台，另一方面是因为 `Android` 系统版本对 `JDK` 高版本的支持更新进展缓慢。长期以来我们需要兼容 `JDK 6`，最低系统版本升级至 `Android 4.4(API Level 19)` 以上才能够兼容 `JDK 7`，`Android 8.0(API Level 26)` 才升级至 `JDK 8`，并且仅支持部分功能 API。  
-`Android NIO` 实际广泛应用于网络组件的实现，例如 `Google Guava，Square OKHttp` 。  
-`iOS File` 就是 `C Posix` 使用方式，这里不再赘述。  
-下面这段代码使用纯 `Kotlin` 语言调用 `iOS POSIX File API`。`memScoped{}` 表示该作用域内的申请的内存空间，当离开作用域后，会被自动释放。这是 `Kotlin Native` 不依赖 `JVM GC`内存管理方式，即 `ARC` 自动引用计数。  
+移动端常用 Blocking IO，一方面是因为该方案适合嵌入式平台，另一方面是因为 Android 系统版本对 JDK 高版本的支持更新进展缓慢。长期以来我们需要兼容 JDK 6，最低系统版本升级至 Android 4.4(API Level 19) 以上才能够兼容 JDK 7，Android 8.0(API Level 26) 才升级至 JDK 8，并且仅支持部分功能 API。  
+Android NIO 实际广泛应用于网络组件的实现，例如 Google Guava，Square OKHttp 。  
+iOS File 就是 C Posix 使用方式，这里不再赘述。  
+下面这段代码使用纯 Kotlin 语言调用 iOS POSIX File API。`memScoped{}` 表示该作用域内的申请的内存空间，当离开作用域后，会被自动释放。这是 Kotlin Native 不依赖 JVM GC 内存管理方式，即 ARC 自动引用计数。  
 
 ```kotlin
 fun sample() {
@@ -634,7 +634,7 @@ fun sample() {
 }
 ```
 
-那么如何使用 `Kotlin Multiplatform` 实现 `java.io.file` 与 `C POSIX File` 统一 API ？我们看看官方现状。  
+那么如何使用 Kotlin Multiplatform 实现 java.io.file 与 C POSIX File 统一 API ？我们看看官方现状。  
 `Package kotlin.io for native` 仅有3个方法。
 
 ```kotlin
@@ -646,9 +646,9 @@ fun println()
 fun readLine(): String?
 ```
 
-`Package kotlinx.io` 基于 `NIO` 方案实现，目前仍处于实验阶段，官方建议配合 `kotlinx.coroutines, kotlinx.atomicfu` 一起使用，尚未支持 Native 平台。  
-所以目前我们只能自己实现双平台的统一封装。这部分实现并不难，可参考  `OpenJDK` 和 `AOSP` 源码。 `Java File` 底层实现原理也是通过 `JNI` 调用 `C POSIX`。`Android` 源码部分改写了 `OpenJDK` 的实现。具体细节详见 `Android SDK FileInputStream/FileOutputSteam` 源码。  
-另外 `Okio 2` 正在进行迁移至 `Kotlin` 和支持多平台，`square` 团队的最终目标是将 `Retrofit, OkHttp` 运行在多平台。详见：  
+`Package kotlinx.io` 基于 NIO 方案实现，目前仍处于实验阶段，官方建议配合 kotlinx.coroutines, kotlinx.atomicfu 一起使用，尚未支持 Native 平台。  
+所以目前我们只能自己实现双平台的统一封装。这部分实现并不难，可参考 OpenJDK 和 AOSP 源码。 Java File 底层实现原理也是通过 JNI 调用 C POSIX。Android 源码部分改写了 OpenJDK 的实现。具体细节详见 Android SDK FileInputStream/FileOutputSteam 源码。  
+另外 Okio 2 正在进行迁移至 Kotlin 和支持多平台，square 团队的最终目标是将 Retrofit, OkHttp 运行在多平台。详见：  
 [okio/issues/370](https://github.com/square/okio/issues/370)
 
 --------
@@ -659,15 +659,15 @@ fun readLine(): String?
 
 #### `Android SQLiteOpenHelper`
 
-+ `Android SDK` 默认提供的 `SQLite` 方案。
-+ `SQLite low-level API`
-+ `Raw SQL queries`
++ Android SDK 默认提供的 SQLite 方案。
++ SQLite low-level API
++ Raw SQL queries
 + 使用较繁琐
 
 #### Android Jetpack Room
 
-+ `Jetpack` 新组件。
-+ `SQLite` 之上的 `ORM` 抽象层。
++ Jetpack 新组件。
++ SQLite 之上的 ORM 抽象层。
 
 #### iOS SQLite library
 
@@ -677,8 +677,8 @@ fun readLine(): String?
 
 [https://github.com/square/sqldelight](https://github.com/square/sqldelight)
 
-目前最成熟稳定的 `Kotlin MultiPlatform SQLite` 解决方案。作者 Alec Strong, Jake Wharton（又见大神）。不论是 `Android Java` 开发，还是 `Kotlin` 跨平台开发，我都建议大家了解一下它。  
-它的思路非常有趣，与 `Room` 为代表的各种 ORM 方案截然相反。它是从 `SQL` 查询语句生成代码，而不是从代码生成 `SQL` 查询。这里不展开介绍，直接放上 `Jake Wharton` 关于 `SQLDelight vs Room` 的评论原文。  
+目前最成熟稳定的 Kotlin MultiPlatform SQLite 解决方案。作者 Alec Strong, Jake Wharton（又见大神）。不论是 Android Java 开发，还是 Kotlin 跨平台开发，我都建议大家了解一下它。  
+它的思路非常有趣，与 Room 为代表的各种 ORM 方案截然相反。它是从 SQL 查询语句生成代码，而不是从代码生成 SQL 查询。这里不展开介绍，直接放上 Jake Wharton 关于 《SQLDelight vs Room》 的评论原文。  
 
 > In my opinion, Room exists at the wrong level of abstraction.
 >
@@ -698,16 +698,16 @@ fun readLine(): String?
 
 ### The Future
 
-[`Kotlin` 解决方案组件的稳定性和进展](https://kotlinlang.org/docs/reference/evolution/components-stability.html)
+[Kotlin 解决方案组件的稳定性和进展](https://kotlinlang.org/docs/reference/evolution/components-stability.html)
 
-`Kotlin Native` 处于 `Additions in Incremental Releases (AIR)` 阶段。  
-`Multiplatform Projects` 处于 `Moving fast (MF)` 阶段。
+Kotlin Native 处于 Additions in Incremental Releases (AIR) 阶段。  
+Multiplatform Projects 处于 Moving fast (MF) 阶段。
 
-前不久的Google IO 2019 大会上，`Kotlin` 语言在 `Android` 平台的地位进一步上升。`Android Jetpack` 系列组件优先支持 `Kotlin` 。`Square` 公司的 `Okio 2，OkHttp 4.0` 正在迁移 `Kotlin`并支持多平台。  
-所以我相信 `Kotlin Multiplatform` 的未来充满想象力。  
+前不久的Google IO 2019 大会上，Kotlin 语言在 Android 平台的地位进一步上升。Android Jetpack 系列组件优先支持 Kotlin 。Square 公司的 Okio 2，OkHttp 4.0 正在迁移 Kotlin并支持多平台。  
+所以我相信 Kotlin Multiplatform 的未来充满想象力。  
 
 ### One more thing
 
 [https://gradle.org/kotlin/](https://gradle.org/kotlin/)
 
-`Gradle 5.0` 已发布 `Kotlin DSL v1.0` 稳定版，建议迁移 `Gradle` 工程至 `KTS` 。
+Gradle 5.0 已发布 Kotlin DSL v1.0 稳定版，建议迁移 Gradle 工程至 KTS 。

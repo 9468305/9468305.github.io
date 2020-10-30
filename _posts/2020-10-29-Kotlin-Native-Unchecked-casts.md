@@ -16,11 +16,9 @@ category: [Technology, Kotlin]
 《Type safety breach when is-check ignores variance incompatibility》
 
 2015.06.08 Ilya Gorbunov：  
-发帖提问报Bug。
+发帖提问报Bug：以下这段代码，往整型动态数组插入字符串元素，能够正常编译通过。加一个判断好不好？
 
 ```kotlin
-以下这段代码，往整型动态数组插入字符串元素，能够正常编译通过。加一个判断好不好？
-
 private fun <E> List<E>.addAnything(element: E) {
     if (this is MutableList<E>) {
         this.add(element)
@@ -86,12 +84,10 @@ fun main() {
 2020.07.27 Ilya Gorbunov（又是他）：  
 开新贴。
 
-```kotlin
-Kotlin 范型的类型检测和转换，支持非受检类型转换。
-例如把入参当做返回值使用，数据类型可以改变。
-但是 Kotlin Native 干这事容易导致内存堆污染，破坏内存安全性。
-而且还无法检测到。
+> Kotlin 范型的类型检测和转换，支持非受检类型转换。例如把入参当做返回值使用，数据类型可以改变。  
+但是 Kotlin Native 干这事容易导致内存堆污染，破坏内存安全性。而且还无法检测到。
 
+```kotlin
 class Box<T>(var value: T)
 
 fun main() {
@@ -102,7 +98,7 @@ fun main() {
         println(d.value + 2)
 }
 
-这段代码输出“12”，不抛 ClassCastException 。
+//上面这段代码输出“12”，不抛 ClassCastException 。
 
 fun main() {
         val d = Box(listOf(1))
@@ -112,8 +108,10 @@ fun main() {
         println(d.value.first())
 }
 
-这段代码编译正常，运行时直接崩，输出：
+/*
+上面这段代码编译正常，运行时直接崩，输出：
 runtime\src\main\cpp\TypeInfo.cpp:41: runtime assert: Unknown open method
+*/
 ```
 
 **然而。。。并没有人鸟他。**
