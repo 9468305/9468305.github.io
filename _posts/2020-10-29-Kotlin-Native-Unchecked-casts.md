@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Kotlin Native Unchecked casts Bug"
+title: "Tech：Kotlin Native Unchecked casts"
 image: ../static/Kotlin.png
 description: "Kotlin Multiplatform Native Unchecked casts ClassCastException"
 author: ChenQi
@@ -117,6 +117,7 @@ runtime\src\main\cpp\TypeInfo.cpp:41: runtime assert: Unknown open method
 **然而。。。并没有人鸟他。**
 
 ### [KT-42903][KT-42903]
+
 《In Some Case Kotlin/Native Doesn't throw the ClassCastException》
 
 2020.10.23 小乔很激动的（估计现在很不开心）跟我说，他发现了 Kotlin Native 编译器的一个大 Bug，对象的类型能够随意强转，还不报错，运行结果看缘分。  
