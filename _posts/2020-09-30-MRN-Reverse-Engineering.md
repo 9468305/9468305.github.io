@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Android：美团App逆向工程分析"
+title: "Tech：美团App逆向工程分析"
 description: "Meituan React Native, Reverse engineering"
 author: ChenQi
-category: [Technology, Android]
+category: Technology
 ---
 
 > 两周没写公众号文章，粉丝一个没掉，太感动了，你们都是好人。今天发一篇旧文，表示我还在。中秋国庆八天假期可以认真准备一些文章素材了。
