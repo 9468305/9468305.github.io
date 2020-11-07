@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Kotlin：Multiplatform Brief"
+title: "Kotlin：Multiplatform"
 image: ../static/Kotlin.png
 description: "Kotlin Multiplatform"
 mermaid: true
