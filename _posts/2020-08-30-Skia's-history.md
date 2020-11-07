@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tech：Skia's history"
+title: "Android：Skia's history"
 description: "Google Android Chrome GUI HWUI Flutter OpenGL"
 mermaid: true
 image: https://skia.org/res/img/logo.png
