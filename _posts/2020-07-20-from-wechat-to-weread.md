@@ -40,6 +40,8 @@ category: Life
 
 某一天发现公众号文章可以“在微信读书中阅读”，而且用户体验良好，于是一次性全部搬迁。近期微信读书团队密集更新版本，用户体验越来越好。
 
+![微信分享](../static/weread/wechat-share.jpg)
+
 ### 微信读书 一号一书
 
 + 每一个公众号，等于微信读书的书架上的一本书，一本永远连载，没有完结的书。
@@ -59,10 +61,10 @@ category: Life
 
 ### 偷懒晒图
 
-![书架分类](../static/weread1.jpg)
+![书架分类](../static/weread/1.jpg)
 
-![一号一书](../static/weread2.jpg)
+![一号一书](../static/weread/2.jpg)
 
-![历史目录](../static/weread3.jpg)
+![历史目录](../static/weread/3.jpg)
 
-![文章正文](../static/weread4.jpg)
+![文章正文](../static/weread/4.jpg)
