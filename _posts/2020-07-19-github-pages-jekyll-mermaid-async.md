@@ -186,14 +186,14 @@ BTW：
 重温互联网前端技术二十年悲惨历史之沧海一粟  
 [《Deep dive into the murky waters of script loading》](https://www.html5rocks.com/zh/tutorials/speed/script-loading/)
 
-![psi chenqi.app mobile](../static/psi-cqa-m.png)
+![psi chenqi.app mobile](../static/psi/psi-cqa-m.png)
 
-![psi chenqi.app mobile detail](../static/psi-cqa-m-d.png)
+![psi chenqi.app mobile detail](../static/psi/psi-cqa-m-d.png)
 
-![psi chenqi.app csair desktop](../static/psi-cqa-csair-d.png)
+![psi chenqi.app csair desktop](../static/psi/psi-cqa-csair-d.png)
 
-![psi chenqi.app csair desktop detail](../static/psi-cqa-csair-d-d.png)
+![psi chenqi.app csair desktop detail](../static/psi/psi-cqa-csair-d-d.png)
 
-![psi chenqi.app csair mobile](../static/psi-cqa-csair-m.png)
+![psi chenqi.app csair mobile](../static/psi/psi-cqa-csair-m.png)
 
-![psi chenqi.app csair mobile detail](../static/psi-cqa-csair-m-d.png)
+![psi chenqi.app csair mobile detail](../static/psi/psi-cqa-csair-m-d.png)
