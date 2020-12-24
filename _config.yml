@@ -6,7 +6,7 @@ author: ChenQi
 permalink: /:title/
 timezone: Asia/Shanghai
 theme: jekyll-theme-hacker
-google_analytics: UA-172803163-1
+google_analytics: G-WY4HPW1HYT
 plugins:
   - jekyll-feed
   - jekyll-sitemap
