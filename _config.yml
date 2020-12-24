@@ -5,10 +5,9 @@ logo: /static/chenqi.jpg
 author: ChenQi
 permalink: /:title/
 timezone: Asia/Shanghai
-remote_theme: 9468305/hacker
-google_analytics_4: G-WY4HPW1HYT
+theme: jekyll-theme-hacker
+google_analytics: UA-172803163-1
 plugins:
-  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
