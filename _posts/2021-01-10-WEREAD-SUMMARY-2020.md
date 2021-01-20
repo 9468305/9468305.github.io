@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "WEREAD 2020 SUMMARY"
-description: "年度书单"
+title: "WEREAD SUMMARY 2020"
+description: "2020微信读书年度书单"
 author: ChenQi
 category: Reading
 ---
