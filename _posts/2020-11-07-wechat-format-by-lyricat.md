@@ -2,6 +2,7 @@
 layout: post
 title: "Tech：微信公众号格式化编辑器"
 description: "wxformat WeChat-Format lyricat"
+image: ../static/chenqi.jpg
 author: ChenQi
 category: Technology
 ---

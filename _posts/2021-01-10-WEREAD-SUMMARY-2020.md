@@ -2,6 +2,7 @@
 layout: post
 title: "WEREAD SUMMARY 2020"
 description: "2020微信读书年度书单"
+image: ../static/chenqi.jpg
 author: ChenQi
 category: Reading
 ---

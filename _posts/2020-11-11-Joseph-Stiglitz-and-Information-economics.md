@@ -2,6 +2,7 @@
 layout: post
 title: "读书：约瑟夫·斯蒂格利茨与信息经济范式"
 description: "信息经济学"
+image: ../static/chenqi.jpg
 author: ChenQi
 category: Reading
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "读书：奥杜邦的祈祷"
-description: ""
+description: "伊坂幸太郎"
 image: ../static/ap.png
 author: ChenQi
 category: Reading

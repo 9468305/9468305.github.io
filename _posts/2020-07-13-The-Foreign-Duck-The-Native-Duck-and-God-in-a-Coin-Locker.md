@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "读书：家鸭与野鸭的投币式寄物柜"
-description: ""
+description: "伊坂幸太郎"
 image: ../static/fdndgcl.png
 author: ChenQi
 category: Reading

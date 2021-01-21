@@ -2,6 +2,7 @@
 layout: post
 title: "Tech：为什么需要持续重构代码？"
 description: "Why does software code always need to be constantly refactored"
+image: ../static/chenqi.jpg
 author: ChenQi
 category: Technology
 ---

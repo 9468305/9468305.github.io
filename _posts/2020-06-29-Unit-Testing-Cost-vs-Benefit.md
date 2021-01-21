@@ -2,7 +2,6 @@
 layout: post
 title: "Tech：单元测试的成本和收益"
 image: ../static/chenqi.jpg
-description: ""
 author: ChenQi
 category: Technology
 ---

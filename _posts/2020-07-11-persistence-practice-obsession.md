@@ -2,7 +2,6 @@
 layout: post
 title: "生活：坚持 习惯 沉迷"
 image: ../static/chenqi.jpg
-description: ""
 author: ChenQi
 category: Life
 ---

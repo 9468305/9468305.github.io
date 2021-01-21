@@ -2,7 +2,7 @@
 layout: post
 title: "生活：从微信公众号到微信读书"
 description: "从微信公众号订阅到微信读书书架 打开微信公众号的新姿势"
-image: ../static/weread2.jpg
+image: ../static/chenqi.jpg
 author: ChenQi
 category: Life
 ---

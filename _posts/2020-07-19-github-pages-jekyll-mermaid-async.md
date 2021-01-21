@@ -3,7 +3,7 @@ layout: post
 title: "Tech：GitHub Pages + Jekyll + Mermaid"
 description: "GitHub Pages Jekyll Mermaid Asynchronous PageSpeedInsights LightHouse"
 mermaid: true
-image: ../static/psi-cqa-m.png
+image: ../static/psi/psi-cqa-m.png
 author: ChenQi
 category: Technology
 ---

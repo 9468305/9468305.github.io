@@ -2,6 +2,7 @@
 layout: post
 title: "Tech：linkinator"
 description: "A super simple site crawler and broken link checker. Scurry around your site and find all those broken links."
+image: ../static/chenqi.jpg
 author: ChenQi
 category: Technology
 ---

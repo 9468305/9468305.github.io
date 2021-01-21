@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "生活：两个傻子"
-description: ""
+image: ../static/chenqi.jpg
 author: ChenQi
 category: Life
 ---
