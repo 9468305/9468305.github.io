@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tech：美团App逆向工程分析"
+title: "Tech：美团Android逆向工程分析"
 description: "Meituan React Native, Reverse engineering"
 image: ../static/chenqi.jpg
 author: ChenQi
