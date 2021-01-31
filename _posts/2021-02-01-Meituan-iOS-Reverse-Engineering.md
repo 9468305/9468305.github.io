@@ -510,18 +510,31 @@ https://apihotel.meituan.com/coresearch/HotelSearch?utm_campaign=AgroupBgroupD20
 
 ```json
 {
-    "__reqTraceID" : "70184915-D47F-4F1C-8597-14FC276C3ADB", //每次均变化，是一个uuid。
-    "ci" : 10, //固化，无须解释
-    "language" : "en", //固化，无须解释
-    "msid" : "BC6CC6CF-6680-4694-B0FA-17A2F889B61F1611566966630356", //前半部分是SessionId，推测是APP启动时生成，或服务端下发，之后固化不变。后半部分是时间戳 1611566966630356
-    "userid" : "31410000433", // userid 无须解释
-    "utm_campaign" : "AgroupBgroupD200H0", //固化，无须解释
-    "utm_content" : "000000000000085AA34CEA4E143C0A3FD2B0E4CEF47E0A161103622439265119", //同下面的 uuid
-    "utm_medium" : "iphone", //固化，无须解释
-    "utm_source" : "AppStore", //固化，无须解释
-    "utm_term" : "11.6.201", //固化，无须解释
-    "uuid" : "000000000000085AA34CEA4E143C0A3FD2B0E4CEF47E0A161103622439265119", //0000000000000 + 上面提及的unionId  
-    "version_name" : "11.6.201" //固化，无须解释
+    "userid" : "31410000433",
+    //userid，无须解释
+    "ci" : 10,
+    //固化，无须解释
+    "language" : "en",
+    //固化，无须解释
+    "utm_campaign" : "AgroupBgroupD200H0",
+    //固化，无须解释
+    "utm_medium" : "iphone",
+    //固化，无须解释
+    "utm_source" : "AppStore",
+    //固化，无须解释
+    "utm_term" : "11.6.201",
+    //固化，无须解释
+    "version_name" : "11.6.201",
+    //固化，无须解释
+
+    "__reqTraceID" : "70184915-D47F-4F1C-8597-14FC276C3ADB",
+    //每次均变化，是一个uuid。
+    "msid" : "BC6CC6CF-6680-4694-B0FA-17A2F889B61F1611566966630356",
+    //前半部分是SessionId，推测是APP启动时生成，或服务端下发，之后固化不变。后半部分是时间戳1611566966630356
+    "utm_content" : "000000000000085AA34CEA4E143C0A3FD2B0E4CEF47E0A161103622439265119",
+    //同下面的uuid
+    "uuid" : "000000000000085AA34CEA4E143C0A3FD2B0E4CEF47E0A161103622439265119",
+    //0000000000000+上面提及的unionId
 }
 ```
 
