@@ -7,8 +7,6 @@ author: ChenQi
 category: Technology
 ---
 
-> 两周没写公众号文章，粉丝一个没掉，太感动了，你们都是好人。今天发一篇旧文，表示我还在。中秋国庆八天假期可以认真准备一些文章素材了。
-
 携程有 CRN(Ctrip React Native)，美团有 MRN(Meituan React Native)。只看吹水软文自嗨或互嗨是不行的，剥开代码一探究竟。
 
 Talk is cheap, show me your shitty code!
