@@ -9,7 +9,7 @@ category: Technology
 
 > [《Tech：美团Android逆向工程分析》](../MRN-Reverse-Engineering/)，九个月前曾经对美团Android App做过一次简单拆包分析，主要是了解美团MRN工程结构的实现，以及观察各业务线的模块设计划分和代码量占比情况。并未具体分析源码逻辑实现。
 >
-> 最近QIN对美团iOS App做了一次更加详细的逆向分析。
+> 最近QIN同学对美团iOS App做了一次更加详细的逆向分析。
 
 静态分析
 --------
@@ -43,8 +43,8 @@ App提交至App Store后，经Apple官方加密，生成供用户下载的IPA文
 
 ```bash
 iproxy 2222 22 # 开启USB端口转发，保持进程存在，勿关闭。
-./dump.py com.meituan.imeituan # 开砸，将原始IPA文件导出至电脑本地。
-unzip ./美团.ipa # 解压至 ./Payload/imeituan.app/
+./dump.py com.meituan.imeituan # 开始砸壳，将原始IPA文件导出至电脑本地。
+unzip ./美团.ipa # 解压缩至 ./Payload/imeituan.app/
 ```
 
 ### [class-dump](http://stevenygard.com/projects/class-dump/)
@@ -427,8 +427,8 @@ i2.0GkeXEeqXpKCVy7ROAkB5ZWtw2Q1caL1Q2GR1Y1dU5lTYlGGoHZEKEUHfX7vRU5SlGthNwvbaDtSg
 
 举例：
 
-```http
-GET /coresearch/v1/selectList/fast __reqTraceID=351BE837-69C0-43B5-9CB0-9CFFFE3873EC&cate=20&cateId=20&childAges=&ci=10&cityId=10&client=iphone&cn_pt=RN&endDay=20210126&gps_cityid=-1&isPrefetch=1&keyword=&language=en&msid=BC6CC6CF-6680-4694-B0FA-17A2F889B61F1611640848323419&numberOfAdults=1&numberOfChildren=0&osversion=12.4.5&platform_business=meituan&roomCount=1&sort=smart&source=mt&sourceType=hotel&startDay=20210126&token=RBquN9MXBHXbsmM1twAwnl2O9QEAAAAAhgwAADGp1bzWy18zLs9BlW1vN4ll-P9cm36JAHLiHzqEBpvt7u9J5SWqV8ujseh3bfzWUQ&userid=3141011433&utm_campaign=AgroupBgroupD200Ghomepage_category3_20__a1__c__e123148H0&utm_content=000000000000085AA34CEA4E143C0A3FD2B0E4CEF47E0A161103622439265119&utm_medium=iphone&utm_source=AppStore&utm_term=11.6.201&uuid=000000000000085AA34CEA4E143C0A3FD2B0E4CEF47E0A161103622439265119&version_name=11.6.201
+```
+GET /coresearch/v1/selectList/fast __reqTraceID=351BE837-69C0-43B5-9CB0-9CFFFE3873EC&cate=20&cateId=20&childAges=&ci=10&cityId=10&client=iphone&cn_pt=RN&endDay=20210126&gps_cityid=-1&isPrefetch=1&keyword=&language=en&msid=BC6CC6CF-6680-4694-B0FA-17A2F889B61F1611640848323419&numberOfAdults=1&numberOfChildren=0&osversion=12.4.5&platform_business=meituan&roomCount=1&sort=smart&source=mt&sourceType=hotel&startDay=20210126&token=RBquN9MXBHXbsmM1twAwnl2O9QEAAAAAhgwAADGp1bzWy18zLs9BlW1vN4ll-P9cm36JAHLiHzqEBpvt7u9J5SWqV8ujseh3bfzWUQ&userid=3140000433&utm_campaign=AgroupBgroupD200Ghomepage_category3_20__a1__c__e123148H0&utm_content=000000000000085AA34CEA4E143C0A3FD2B0E4CEF47E0A161103622439265119&utm_medium=iphone&utm_source=AppStore&utm_term=11.6.201&uuid=000000000000085AA34CEA4E143C0A3FD2B0E4CEF47E0A161103622439265119&version_name=11.6.201
 ```
 
 酒店列表查询请求似乎只用到了GET方式。当请求方式为POST时，还需添加其他参数，未深入分析，省略。
@@ -443,8 +443,8 @@ GET /coresearch/v1/selectList/fast __reqTraceID=351BE837-69C0-43B5-9CB0-9CFFFE38
 
 完整URL举例：
 
-```http
-https://apihotel.meituan.com/coresearch/HotelSearch?utm_campaign=AgroupBgroupD200Ghomepage_category3_20__a1__c__e123148H0&utm_content=000000000000085AA34CEA4E143C0A3FD2B0E4CEF47E0A161103622439265119&version_name=11.6.201&__reqTraceID=955C9000-9F1D-4366-A6E2-EF8CF5C875BE&utm_source=AppStore&flagshipFilter=1&newcate=1&category=5&remoteCenter=&utm_term=11.6.201&roomCount=1&startDay=20210127&uuid=000000000000085AA34CEA4E143C0A3FD2B0E4CEF47E0A161103622439265119&sort=smart&limit=30&cate=20&client=iphone&wifiList=%255B%257B%2522isConnected%2522%253Atrue%252C%2522strength%2522%253A0%252C%2522name%2522%253A%2522wifi%2522%252C%2522address%2522%253A%252292%253A74%253A87%253Aa8%253A4d%253A01%2522%257D%255D&platform_business=meituan&numberOfChildren=0&childAges=&attr_28=129&osversion=12.4.5&propagateData=&tipBoothId=94001296&queryRewrite=rewrite&q=&gps_cityid=-1&cityId=10&utm_medium=iphone&cn_pt=RN&offset=0&numberOfAdults=1&accommodationType=1&remoteJumpEnabled=true&inputKeyword=&sourceType=hotelSearch&steParam=&ci=10&cateId=20&msid=D210226D-D207-483A-A4C8-01699E25EDD81611745886186903&token=RBquN9MXBHXbsmM1twAwnl2O9QEAAAAAhgwAADGp1bzWy18zLs9BlW1vN4ll-P9cm36JAHLiHzqEBpvt7u9J5SWqV8ujseh3bfzWUQ&areaName=%E5%85%A8%E5%9F%8E&searchKeywordSource=&language=en&hotel_queryid=000000000000085AA34CEA4E143C0A3FD2B0E4CEF47E0A1611036224392651191611745914.847&userLocationType=0&endDay=20210127&latlng=&userid=3141011433
+```
+https://apihotel.meituan.com/coresearch/HotelSearch?utm_campaign=AgroupBgroupD200Ghomepage_category3_20__a1__c__e123148H0&utm_content=000000000000085AA34CEA4E143C0A3FD2B0E4CEF47E0A161103622439265119&version_name=11.6.201&__reqTraceID=955C9000-9F1D-4366-A6E2-EF8CF5C875BE&utm_source=AppStore&flagshipFilter=1&newcate=1&category=5&remoteCenter=&utm_term=11.6.201&roomCount=1&startDay=20210127&uuid=000000000000085AA34CEA4E143C0A3FD2B0E4CEF47E0A161103622439265119&sort=smart&limit=30&cate=20&client=iphone&wifiList=%255B%257B%2522isConnected%2522%253Atrue%252C%2522strength%2522%253A0%252C%2522name%2522%253A%2522wifi%2522%252C%2522address%2522%253A%252292%253A74%253A87%253Aa8%253A4d%253A01%2522%257D%255D&platform_business=meituan&numberOfChildren=0&childAges=&attr_28=129&osversion=12.4.5&propagateData=&tipBoothId=94001296&queryRewrite=rewrite&q=&gps_cityid=-1&cityId=10&utm_medium=iphone&cn_pt=RN&offset=0&numberOfAdults=1&accommodationType=1&remoteJumpEnabled=true&inputKeyword=&sourceType=hotelSearch&steParam=&ci=10&cateId=20&msid=D210226D-D207-483A-A4C8-01699E25EDD81611745886186903&token=RBquN9MXBHXbsmM1twAwnl2O9QEAAAAAhgwAADGp1bzWy18zLs9BlW1vN4ll-P9cm36JAHLiHzqEBpvt7u9J5SWqV8ujseh3bfzWUQ&areaName=%E5%85%A8%E5%9F%8E&searchKeywordSource=&language=en&hotel_queryid=000000000000085AA34CEA4E143C0A3FD2B0E4CEF47E0A1611036224392651191611745914.847&userLocationType=0&endDay=20210127&latlng=&userid=3140000433
 ```
 
 转为JSON格式，方便阅读：
@@ -500,7 +500,7 @@ https://apihotel.meituan.com/coresearch/HotelSearch?utm_campaign=AgroupBgroupD20
   "userLocationType": "0",
   "endDay": "20210127",
   "latlng": "",
-  "userid": "3141011433"
+  "userid": "3140000433"
 }
 ```
 
@@ -510,18 +510,18 @@ https://apihotel.meituan.com/coresearch/HotelSearch?utm_campaign=AgroupBgroupD20
 
 ```json
 {
-    "__reqTraceID" = "70184915-D47F-4F1C-8597-14FC276C3ADB"; //每次均变化，是一个uuid。
-    ci = 10;//固化，无须解释
-    language = en;//固化，无须解释
-    msid = "BC6CC6CF-6680-4694-B0FA-17A2F889B61F1611566966630356";  //前半部分是SessionId，推测是APP启动时生成，或服务端下发，之后固化不变。后半部分是时间戳 1611566966630356
-    userid = 3141011433; // userid 无须解释
-    "utm_campaign" = AgroupBgroupD200H0;//固化，无须解释
-    "utm_content" = 000000000000085AA34CEA4E143C0A3FD2B0E4CEF47E0A161103622439265119; //同下面的 uuid
-    "utm_medium" = iphone; //固化，无须解释
-    "utm_source" = AppStore; //固化，无须解释
-    "utm_term" = "11.6.201"; //固化，无须解释
-    uuid = 000000000000085AA34CEA4E143C0A3FD2B0E4CEF47E0A161103622439265119; //0000000000000 + 上面提及的unionId  
-    "version_name" = "11.6.201"; //固化，无须解释
+    "__reqTraceID" : "70184915-D47F-4F1C-8597-14FC276C3ADB", //每次均变化，是一个uuid。
+    "ci" : 10, //固化，无须解释
+    "language" : "en", //固化，无须解释
+    "msid" : "BC6CC6CF-6680-4694-B0FA-17A2F889B61F1611566966630356", //前半部分是SessionId，推测是APP启动时生成，或服务端下发，之后固化不变。后半部分是时间戳 1611566966630356
+    "userid" : "31410000433", // userid 无须解释
+    "utm_campaign" : "AgroupBgroupD200H0", //固化，无须解释
+    "utm_content" : "000000000000085AA34CEA4E143C0A3FD2B0E4CEF47E0A161103622439265119", //同下面的 uuid
+    "utm_medium" : "iphone", //固化，无须解释
+    "utm_source" : "AppStore", //固化，无须解释
+    "utm_term" : "11.6.201", //固化，无须解释
+    "uuid" : "000000000000085AA34CEA4E143C0A3FD2B0E4CEF47E0A161103622439265119", //0000000000000 + 上面提及的unionId  
+    "version_name" : "11.6.201" //固化，无须解释
 }
 ```
 
@@ -536,7 +536,7 @@ cy# [[choose(SAKBaseModel)[0] user] token]
 @"RBquN9MXBHXbsmM1twAwnl2O9QEAAAAAhgwAADGp1bzWy18zLs9BlW1vN4ll-P9cm36JAHLiHzqEBpvt7u9J5SWqV8ujseh3bfzWUQ"
  
 cy# [[choose(SAKBaseModel)[0] user] userID]
-@3141011433
+@3140000433
 ```
 
 #### wifiList
@@ -551,7 +551,7 @@ cy# [[choose(SAKBaseModel)[0] user] userID]
     "isConnected":true,
     "strength":0,
     "name":"wifi",
-    "address":"92:74:87:a8:4d:01"
+    "address":"12:34:56:78:90:12"
   }
 ]
 ```
@@ -579,9 +579,9 @@ cy# [[choose(SAKBaseModel)[0] user] userID]
 
 上述分析可见，`mtgsig` 和 `siua` 的生成方式极其复杂，因此采用一种新方式实现。继续借助 frida 这一强大的工具，实现从外部直接调用 App 中相应的加密函数进行计算。
 
-1. 新建文件夹，执行 `npm init -y` 初始化一个空项目。
-2. 执行 `npm install --save  frida` ，安装依赖项。
-3. 实现以下代码，保持至单独文件。此处以 `test.js` 为例。
++ 新建文件夹，执行 `npm init -y` 初始化一个空项目。
++ 执行 `npm install --save  frida` ，安装依赖项。
++ 实现以下代码，保持至单独文件。此处以 `test.js` 为例。
 
 ```js
 module.exports = (async (frida) => {
@@ -649,7 +649,7 @@ module.exports = (async (frida) => {
 })(require('frida'))
 ```
 
-4. 创建调用入口文件
++ 创建调用入口文件
 
 ```js
 require('./test.js').then(async ({mtgsig, siua}) => {
@@ -663,7 +663,7 @@ require('./test.js').then(async ({mtgsig, siua}) => {
 })
 ```
 
-5. 运行该文件，查看效果。Done！
++ 运行该文件，查看效果。Done！
 
 ### The End
 
