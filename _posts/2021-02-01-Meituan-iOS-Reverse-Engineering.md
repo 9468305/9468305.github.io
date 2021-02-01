@@ -294,7 +294,10 @@ frida-trace -U -f com.meituan.imeituan -m '*[MRNNetwork *]'
 运行命令，并触发酒店搜索至列表页功能, 查看方法调用。
 
 编辑文件：
-> __handlers__/MRNNetwork/sendRequestWithParams_customCATI_19c1af7a.js
+
+```bash
+__handlers__/MRNNetwork/sendRequestWithParams_customCATI_19c1af7a.js
+```
 
 修改方法：`onEnter()`
 
@@ -347,12 +350,19 @@ log(request)
 
 拆分各段数据含义：
 
-+ 10 源于 `[[NVNetworkConfigurator configurator] appId]`
-+ 2 固定值
-+ 85aa34cea4e143c0a3fd2b0e4cef47e0a161103622439265119 `pragma-unionid`
-+ 182OfP 随机六位字符串，源于：`[choose(NVTask)[0] randomStringWithLength: 6]]`
-+ 1611745980663.913086 时间戳，源于：`[[NSDate date] timeIntervalSince1970 ] * 1000`
-+ PSoc6U 随机六位字符串，源于：`[choose(NVTask)[0] randomStringWithLength: 6]]`
+<div class="scrollable-table-wrapper" markdown="block">
+
+字段 | 含义 | 来源
+--|--|--
+10 | AppID | [[NVNetworkConfigurator configurator] appId]
+2 | 固定值 |
+85aa34cea4e143c0a3fd2b0e4cef47e0a161103622439265119 | unionid | [[NVNetworkConfigurator configurator] unionId]
+182OfP | 随机六位字符串 | [choose(NVTask)[0] randomStringWithLength: 6]]
+1611745980663.913086 | 时间戳 | [[NSDate date] timeIntervalSince1970 ] * 1000
+PSoc6U | 随机六位字符串 |[choose(NVTask)[0] randomStringWithLength: 6]]
+
+{:.table-scrollable}
+</div>
 
 生成随机字符的取值范围：
 
