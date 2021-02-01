@@ -412,7 +412,7 @@ i2.0GkeXEeqXpKCVy7ROAkB5ZWtw2Q1caL1Q2GR1Y1dU5lTYlGGoHZEKEUHfX7vRU5SlGthNwvbaDtSg
 }
 ```
 
-实测该字段必传，否则会被服务端拦截。以及生成内容必须正确，否则也会被拦截。
+实测该字段必传，否则会被 WAF(Web Application Firewall) 拦截。以及生成内容必须正确，否则也会被拦截。
 
 其生成逻辑位于以下方法：
 
