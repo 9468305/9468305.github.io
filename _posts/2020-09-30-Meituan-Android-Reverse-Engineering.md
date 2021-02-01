@@ -120,7 +120,7 @@ Talk is cheap, show me your shitty code!
 
 ### MRN工程结构图
 
-![MRN工程结构图](../static/mrn_travel.png)
+![MRN工程结构图](../static/mrn_travel.jpg)
 
 ### MRN JSON Config
 
