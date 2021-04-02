@@ -4,7 +4,7 @@ title: "Tech：fliggy app outline"
 description: "android iOS"
 image: ../static/chenqi.jpg
 author: ChenQi
-category: Technology
+category: [Technology, Android]
 ---
 
 ## Android
