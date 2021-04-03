@@ -4,7 +4,7 @@ title: "Tech：美团iOS逆向工程分析"
 description: "Meituan App iOS Reverse engineering"
 image: ../static/chenqi.jpg
 author: ChenQi
-category: Technology
+category: [Technology, iOS]
 ---
 
 > [《Tech：美团Android逆向工程分析》](../MRN-Reverse-Engineering/)，九个月前曾经对美团Android App做过一次简单拆包分析，主要是了解美团MRN工程结构的实现，以及观察各业务线的模块设计划分和代码量占比情况。并未具体分析源码逻辑实现。
