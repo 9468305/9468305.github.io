@@ -4,7 +4,7 @@ title: "Tech：客户端开发还有未来吗？"
 description: "The future of mobile android iOS developer"
 image: ../static/chenqi.jpg
 author: ChenQi
-category: [Technology, Android, iOS]
+category: Technology
 ---
 
 ## 新人小朋友问
