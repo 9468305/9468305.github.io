@@ -22,6 +22,8 @@ category: [Technology, Android, iOS]
 
 第三方数据统计，2019年 App Store 总收入 500 亿美元。2020年 App Store 总收入 640 亿美元，同比增长 28%。对比谷歌，2019年 Google Play Store 总收入 293 亿美元。
 
+![App Store stats](../static/Apple_App-Store-infographic-stats_06152020.jpg)
+
 苹果主要靠卖硬件赚钱，但应用商店已经成为收入增长的重要来源之一。谷歌安卓系统免费开源，但应用商店同样也是收入增长重心之一。所以 App 的形态存在是一门生意。
 
 两家应用商店的各种上架审核政策变更，很大一部分都是围绕着如何让营收保持闭环流通。苹果对 H5 Web 套壳应用及动态更新技术的严厉封杀也是为了避免收入外流。苹果与 Epic Games 的神仙打架亦是如此。
