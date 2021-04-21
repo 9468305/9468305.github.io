@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "泸沽湖"
+title: "生活：泸沽湖"
 description: "云南 丽江 摩梭 里格 大洛水 旅游"
 image: ../static/chenqi.jpg
 author: ChenQi
