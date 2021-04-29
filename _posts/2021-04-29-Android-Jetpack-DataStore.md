@@ -9,7 +9,10 @@ category: [Technology, Android, Kotlin]
 
 官网指南：[DataStore](https://developer.android.google.cn/topic/libraries/architecture/datastore?hl=zh_cn)
 
-官方博客：2020.09.02 [《Prefer Storing Data with Jetpack DataStore》](https://android-developers.googleblog.com/2020/09/prefer-storing-data-with-jetpack.html)
+官方博客：
+
++ [Prefer Storing Data with Jetpack DataStore](https://android-developers.googleblog.com/2020/09/prefer-storing-data-with-jetpack.html)
++ [使用 Jetpack DataStore 进行数据存储](https://mp.weixin.qq.com/s/-RfIREyzA2O1Sioj9xxkww)
 
 Codelabs：
 
