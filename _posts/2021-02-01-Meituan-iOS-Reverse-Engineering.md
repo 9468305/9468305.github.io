@@ -7,7 +7,7 @@ author: ChenQi
 category: [Technology, iOS]
 ---
 
-> [《Tech：美团Android逆向工程分析》](../MRN-Android-Reverse-Engineering/)，九个月前曾经对美团Android App做过一次简单拆包分析，主要是了解美团MRN工程结构的实现，以及观察各业务线的模块设计划分和代码量占比情况。并未具体分析源码逻辑实现。
+> [《Tech：美团Android逆向工程分析》](../Meituan-Android-Reverse-Engineering/)，九个月前曾经对美团Android App做过一次简单拆包分析，主要是了解美团MRN工程结构的实现，以及观察各业务线的模块设计划分和代码量占比情况。并未具体分析源码逻辑实现。
 >
 > 最近QIN同学对美团iOS App做了一次更加详细的逆向分析。
 
