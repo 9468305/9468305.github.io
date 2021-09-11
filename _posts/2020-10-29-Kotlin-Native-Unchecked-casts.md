@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Kotlin：KN Unchecked casts"
+title: "Kotlin：Native Unchecked casts"
 image: ../static/Kotlin.png
 description: "Kotlin Multiplatform Native Unchecked casts ClassCastException"
 author: ChenQi
