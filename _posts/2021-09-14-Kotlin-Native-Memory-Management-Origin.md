@@ -57,7 +57,7 @@ Kotlin/Native Tech Lead
 
 在 v0.8 之前，Kotlin/Native 应用程序将单例对象状态保持在特定执行线程的`Thread-Local`，因此不同线程上的单例对象状态可能是不同步的。
 
-现在，扩展冻结单例对象的概念，我们允许共享不可变状态。共享对象将在每次（进程）执行时初始化读取一次，可供任何线程或 `Worker` 使用。初始化后，该对象将被冻结，并且无法再次被修改（尝试修改尝将抛出`InvalidMutabilityException`）。
+现在，扩展冻结单例对象的概念，我们允许共享不可变状态。共享对象将在每次（进程）执行时初始化读取一次，可供任何线程或 `Worker` 使用。初始化后，该对象将被冻结，并且无法再次被修改（尝试修改将抛出`InvalidMutabilityException`）。
 
 同时配合使用 `AtomicReference` 存储冻结对象，并确保数据更新是原子性操作。
 
@@ -124,11 +124,9 @@ Kotlin/Native Tech Lead
 
 考虑到兼容性过渡，我们计划继续支持对象冻结作为无竞争数据共享的安全机制，并且我们将寻找方法来改进 Kotlin 在整个 Kotlin 语言中处理不可变数据的方法，不仅仅是在 Kotlin/Native 中。与内存管理相关的现有注释将在新内存管理器中具有适当的行为，以确保旧代码仍然有效。同时，我们将继续支持现有的内存管理器，我们将发布适用于 Kotlin/Native 的多线程库，以便您可以在它们之上开发您的应用程序。
 
-```text
-我们已经决定需要开发一个新的内存管理器，但我们还没有决定它具体长什么样。它将需要大量的原型设计、基准测试和实验。这篇博文旨在向我们的社区提供有关未来变化的最新信息。我们将在弄清楚后分享更多细节。
-
-我们跟Rust不一样。Rust 模型非常特定于 Rust，需要开发人员以正确注释生命周期和正确使用引用类型和各种 Box/Rc 包装器的形式获得大量知识和远见卓识。这一切都给代码增加了太多的仪式感，并且与 Kotlin 的目标背道而驰，即让开发人员专注于其代码的业务逻辑的实质内容。
-```
+> 我们已经决定需要开发一个新的内存管理器，但我们还没有决定它具体长什么样。它将需要大量的原型设计、基准测试和实验。这篇博文旨在向我们的社区提供有关未来变化的最新信息。我们将在弄清楚后分享更多细节。
+>
+> 我们跟Rust不一样。Rust 模型非常特定于 Rust，需要开发人员以正确注释生命周期和正确使用引用类型和各种 Box/Rc 包装器的形式获得大量知识和远见卓识。这一切都给代码增加了太多的仪式感，并且与 Kotlin 的目标背道而驰，即让开发人员专注于其代码的业务逻辑的实质内容。
 
 ### 2021.05.20 [内存管理新方案进展](https://blog.jetbrains.com/kotlin/2021/05/kotlin-native-memory-management-update/)
 
@@ -167,19 +165,15 @@ Coroutines GitHub: [Support multi-threaded coroutines on Kotlin/Native #462](ht
 
 [Vsevolod Tolstopyatov](https://github.com/qwwdfsad) 已将 Coroutines 新版代码合并。
 
-```text
-I suggest all users of native-mt builds to read the announcement.
-
-We aim to merge the support of the new MM into coroutines 1.6.0 (#2914) and then, depending on the stability of the new MM, promote it as the default way to write concurrent code on Native platforms.
-
-native-mt won't be supported as soon as the new MM is stable.
-```
+> I suggest all users of native-mt builds to read the announcement.
+>
+>We aim to merge the support of the new MM into coroutines 1.6.0 (#2914) and then, depending on the stability of the new MM, promote it as the default way to write concurrent code on Native platforms.
+>
+>native-mt won't be supported as soon as the new MM is stable.
 
 但是同时也留了一个随时回滚禁用的坑。
 
-```text
-My proposal is to leverage isExperimentalMM stdlib API (available only in 1.6.0+) and merge the support of the new MM in the mainline, enabling new "sharing" behaviour (and also implementations of Dispatchers.Main, Dispatchers.Default and new*Context()) conditionally. If the new MM is disabled, we can fallback to our single-threaded mode.
-```
+> My proposal is to leverage isExperimentalMM stdlib API (available only in 1.6.0+) and merge the support of the new MM in the mainline, enabling new "sharing" behaviour (and also implementations of Dispatchers.Main, Dispatchers.Default and new*Context()) conditionally. If the new MM is disabled, we can fallback to our single-threaded mode.
 
 根据过往踩坑经验，衷心祝福新方案能在1.6.20版本稳定可用。  
 Roman Elizarov 加油！
