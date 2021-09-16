@@ -38,7 +38,7 @@ category: [Technology, Android]
 
 ### 三星（最复杂）
 
-`仅支持 Windows PC 刷机`。  
+`仅支持 Windows 刷机`。  
 
 Android USB Driver for Windows  
 https://developer.samsung.com/mobile/android-usb-driver.html  
