@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Tech：整理一波安卓ROM刷机资料"
-description: "Android ROM Recovery Bootloader 一门失传的古老手艺"
+description: "Android ROM Recovery Bootloader 一门几近失传的古老手艺"
 image: ../static/chenqi.jpg
 author: ChenQi
 category: [Technology, Android]
 ---
 
 安卓第三方ROM刷机行业已经几乎消失殆尽，用户懒得折腾，厂商渠道升级为主，手机平均2年一换。  
-简单整理一波目前常规刷机升级资源网站。
+简单整理一波目前常规刷机升级资源网站。（给团队里那些懒人）
 
 ### 华为 EMUI
 
