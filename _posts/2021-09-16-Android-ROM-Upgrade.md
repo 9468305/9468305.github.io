@@ -53,12 +53,14 @@ https://www.sammobile.com/firmwares/
 
 #### 三星刷机流程
 
-安装三星手机驱动程序。  
-安装（解压）Odin刷机工具。  
-下载ROM固件压缩包，解压，获得 `*.tar.md5` 一个大文件。  
-重启手机进入“下载模式”。方法：关机后，同时按住（音量下键 + 电源键 + Home键），直到启动“下载模式”（约5-8 秒）。  
-手机USB 连接 PC，打开Odin Tool。  
-Odin Tool中，Option Tab设置选项界面，选中“自动重启”(Auto Reboot) 和“刷机重置时间”(F. Reset Time) 选项。  
-Odin Tool中，点击 AP/PDA 按钮，选择已下载解压的 `*.tar.md5` 一个大文件。  
-Odin Tool中，点击 start（开始）按钮，开刷。  
-等待至完成。  
++ 安装三星手机驱动程序。  
++ 安装（解压）Odin刷机工具。  
++ 下载ROM固件压缩包，解压，获得 `*.tar.md5` 一个大文件。  
++ 重启手机进入“下载模式”。  
+    方法：关机后，同时按住（音量下键 + 电源键 + Home键），直到启动“下载模式”（约5-8 秒）。  
++ 手机USB 连接 PC，打开Odin Tool。  
++ Odin Tool 刷机：
+  + Option Tab 设置选项界面，选中“自动重启”(Auto Reboot) 和“刷机重置时间”(F. Reset Time) 选项。  
+  + 点击 AP/PDA 按钮，选择已下载解压的 `*.tar.md5` 一个大文件。  
+  + 点击 start（开始）按钮，开刷。  
+  + 等待至完成。  
