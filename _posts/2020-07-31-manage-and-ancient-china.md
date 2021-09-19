@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "TLDP 018：管理与诸子百家"
-description: "Technology Leadership Development Program 中国式管理都写在2000年前的文字里"
+description: "Technical Leadership Development Program 中国式管理都写在2000年前的文字里"
 image: ../static/chenqi.jpg
 author: ChenQi
 category: Management

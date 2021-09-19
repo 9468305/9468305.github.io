@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "TLDP 012：内功怎么练"
-description: "Technology Leadership Development Program"
+description: "Technical Leadership Development Program"
 image: ../static/chenqi.jpg
 author: ChenQi
 category: Management

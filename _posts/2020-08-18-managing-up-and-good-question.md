@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "TLDP 021：向上管理与问对问题"
-description: "Technology Leadership Development Program, Managing Upword"
+description: "Technical Leadership Development Program, Managing Upword"
 image: ../static/chenqi.jpg
 author: ChenQi
 category: Management

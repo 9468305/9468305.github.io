@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "TLDP 020：闲聊社会学"
-description: "Technology Leadership Development Program 管理与社会学调查研究方法"
+description: "Technical Leadership Development Program 管理与社会学调查研究方法"
 image: ../static/chenqi.jpg
 author: ChenQi
 category: Management

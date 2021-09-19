@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "TLDP 023：己所不欲勿施于人"
-description: "Technology Leadership Development Program, DO UNTO OTHERS AS YOU WOULD HAVE THEM DO UNTO YOU, 己所不欲勿施于人, 互联网技术圈就是元末农民起义"
+description: "Technical Leadership Development Program, DO UNTO OTHERS AS YOU WOULD HAVE THEM DO UNTO YOU, 己所不欲勿施于人, 互联网技术圈就是元末农民起义"
 image: ../static/chenqi.jpg
 author: ChenQi
 category: Management

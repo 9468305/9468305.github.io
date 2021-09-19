@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "TLDP 009：领导们意见不一致？"
-description: "Technology Leadership Development Program"
+description: "Technical Leadership Development Program"
 image: ../static/chenqi.jpg
 author: ChenQi
 category: Management

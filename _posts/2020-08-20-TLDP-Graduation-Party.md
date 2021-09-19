@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "TLDP 022：结业典礼"
-description: "Technology Leadership Development Program, Graduation Party"
+description: "Technical Leadership Development Program, Graduation Party"
 image: ../static/chenqi.jpg
 author: ChenQi
 category: Management
