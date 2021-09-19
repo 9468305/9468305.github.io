@@ -4,7 +4,7 @@ title: "Tech：美团Android逆向工程分析"
 description: "Meituan Android React Native Reverse engineering"
 image: ../static/chenqi.jpg
 author: ChenQi
-category: Technology
+category: [Technology, Android]
 ---
 
 携程有 CRN(Ctrip React Native)，美团有 MRN(Meituan React Native)。只看吹水软文自嗨或互嗨是不行的，剥开代码一探究竟。
