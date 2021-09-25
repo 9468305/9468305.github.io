@@ -48,7 +48,7 @@ category: Life
 
 而我的书架现有1795本待阅读，（不包含已读完的800本，读完就移除，转至“个人主页-已读完”分类。）其中1675本公开阅读是常规书籍，120本私密阅读是微信公众号（为了不影响书架显示排序，设置私密+分组管理）。
 
-![书架-购买](../static/weread/store-buy.jpg)
+![书架-购买](../static/weread/shelf-buy.jpg)
 
 书架超限后怎么办？
 
@@ -60,24 +60,24 @@ App Native 技术栈带来的福利，低版本没有动态化更新覆盖。（
 
 默认分类是按照最近访问排序 LRU Cache。
 
-![书架默认排序](../static/weread/store-default.jpg)
+![书架默认排序](../static/weread/shelf-default.jpg)
 
 更新分类是按照最近发布排序。书籍右上角红标显著区分已读和未读文章。特别适合速读刷掉大量公众号文章的每日更新。同时布局标题区分最近七天内更新和更久之前更新。
 
-![书架更新排序1](../static/weread/store-update-new.jpg)
+![书架更新排序1](../static/weread/shelf-update-new.jpg)
 
 按更新时间倒序查看，很明显能发现一些“懒惰”的作者（大都是同事朋友个人号），例如黄老师已经将近5个月没有写产品经理随笔了，想必是国际化事业繁忙工作劳累吧。
 
-![书架更新排序2](../static/weread/store-update-old.jpg)
+![书架更新排序2](../static/weread/shelf-update-old.jpg)
 
 进度分类适合我这种阅读强迫症患者，一本书一旦开始阅读，哪怕内容再艰涩，也一定要完整读完。
 
-![书架进度排序](../static/weread/store-progress.jpg)
+![书架进度排序](../static/weread/shelf-progress.jpg)
 
 购买分类前面贴过图了，没什么好说的。  
 自动分类就是按书籍上架时的出版分类进行分组。方便在不知道该读哪本书的时候，先按题材翻一翻。
 
-![书架分类排序](../static/weread/store-type.jpg)
+![书架分类排序](../static/weread/shelf-type.jpg)
 
 ### 7. 微信公众号聚合
 
