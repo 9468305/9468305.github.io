@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tech：Kotlin Native Memory Management Origin"
+title: "Kotlin：Native Memory Management Origin"
 description: "Kotlin Multiplatform KMP KMM Garbage Collector Freeze"
 image: ../static/chenqi.jpg
 author: ChenQi

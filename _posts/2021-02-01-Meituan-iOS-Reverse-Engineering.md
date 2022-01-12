@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tech：美团iOS逆向工程分析"
+title: "iOS：美团App逆向工程分析"
 description: "Meituan App iOS Reverse engineering"
 image: ../static/chenqi.jpg
 author: ChenQi

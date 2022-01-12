@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tech：整理一波安卓ROM刷机资料"
+title: "Android：整理一波安卓ROM刷机资料"
 description: "Android ROM Recovery Bootloader 一门几近失传的古老手艺"
 image: ../static/chenqi.jpg
 author: ChenQi
