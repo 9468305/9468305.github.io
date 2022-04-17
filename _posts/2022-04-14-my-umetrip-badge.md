@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Tech：航旅纵横给了我一个每天打卡的好理由"
+title: "生活：航旅纵横给了我一个每天打卡的好理由"
 description: "my umetrip badge"
 image: ../static/chenqi.jpg
 author: ChenQi
-category: Technology
+category: Life
 ---
 
 > 一半互联网产品研发角度，一半生活回忆，不管了，随便写写字吧。
