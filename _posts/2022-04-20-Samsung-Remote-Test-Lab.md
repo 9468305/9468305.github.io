@@ -46,7 +46,7 @@ RDB将RTL设备与本地开发机器的ADB（Android 调试桥）连接起来，
 
 RTL在美国、英国、韩国等8个国家以及美洲、欧洲和亚洲其他国家设有10个服务中心。由于每个服务集线器都有不同的可用设备型号，因此如果需要，您还可以访问其他集线器上的设备。在所有服务中心，您可以连接到 1500 多种不同的设备，从移动设备（例如最新的可折叠型号）到最新的智能手表设备。利用远程测试实验室在各种规格和分辨率的 Galaxy 移动设备和手表设备上测试您的应用程序。
 
-### Reference
+### References
 
 + [Get Started with Remote Test Lab for Mobile App Testing](https://developer.samsung.com/sdp/blog/en-us/2021/02/18/get-started-with-remote-test-lab-for-mobile-app-testing)
 + [What's New in Remote Test Lab](https://developer.samsung.com/sdp/blog/en-us/2021/03/17/whats-new-in-remote-test-lab)
