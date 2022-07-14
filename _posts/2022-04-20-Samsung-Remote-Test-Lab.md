@@ -11,8 +11,8 @@ category: [Technology, Android]
 
 ### Remote Test Lab
 
-https://developer.samsung.com/remote-test-lab  
-https://developer.samsung.com/remotetestlab/deviceList.action  
+<https://developer.samsung.com/remote-test-lab>  
+<https://developer.samsung.com/remotetestlab/deviceList.action>  
 RTL = Remote Test Lab = 远程测试实验室 = 远程控制/观看/实时交互/测试运行三星真实移动设备。
 
 ### 常规功能
